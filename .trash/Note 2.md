@@ -1,0 +1,1 @@
+Apa yang Kamu bicarakan

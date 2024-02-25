@@ -1,0 +1,1 @@
+Apa yang kamu bicarakan disana Bombom

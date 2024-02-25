@@ -1,0 +1,244 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "a5421472-bb12-4841-837d-073109e8e726",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "180.65453338623047px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Nama Pemain",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "f5640c72-9366-4fdb-96b8-fe66db62114c",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "148.2908477783203px",
+        "type": "number",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "No Punggung",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "324c0e5e-39bd-46da-b47c-2b9d5103558c",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "172.34547424316406px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Negara Pemain",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "1e63ae4c-ef20-4d2b-971e-588e030403da",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "146.19088745117188px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Umur Pemain",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      }
+    ],
+    "rows": [
+      {
+        "id": "8af66177-d446-41c3-8cf7-9203e5705971",
+        "index": 0,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T02:09:28.425Z",
+        "lastEditedDateTime": "2024-01-23T02:14:31.364Z",
+        "cells": [
+          {
+            "id": "6b608303-7172-4874-9b50-c061e74a7cba",
+            "columnId": "a5421472-bb12-4841-837d-073109e8e726",
+            "content": "Ruben Dias",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "b632527b-90fc-4ee7-b5e3-31ba81b36a81",
+            "columnId": "f5640c72-9366-4fdb-96b8-fe66db62114c",
+            "value": 3,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "8402d0f8-2ae9-46bf-ab7b-774c47f4405a",
+            "columnId": "324c0e5e-39bd-46da-b47c-2b9d5103558c",
+            "content": "Portugal",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "cf2792e6-3c32-4c1b-8dea-872156c85ae1",
+            "columnId": "1e63ae4c-ef20-4d2b-971e-588e030403da",
+            "content": "26 Tahun",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "c780054a-997e-4f4b-8bea-c92324d1a730",
+        "index": 1,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T02:12:41.206Z",
+        "lastEditedDateTime": "2024-01-23T02:14:35.792Z",
+        "cells": [
+          {
+            "id": "27d7b1aa-b52e-4e7e-bf2a-f6126b7f686d",
+            "columnId": "a5421472-bb12-4841-837d-073109e8e726",
+            "content": "Bernardo Silva",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "d268ae7e-7a8d-47f7-a3cd-1b832f56049a",
+            "columnId": "f5640c72-9366-4fdb-96b8-fe66db62114c",
+            "value": 20,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "fbb200a1-e566-4025-84b1-b00ad28ba41c",
+            "columnId": "324c0e5e-39bd-46da-b47c-2b9d5103558c",
+            "content": "Portugal",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "1de9b1f8-59f8-4e3e-8588-d57201e69e54",
+            "columnId": "1e63ae4c-ef20-4d2b-971e-588e030403da",
+            "content": "29 Tahun",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "105137be-bab5-446f-a080-ab0003afba58",
+        "index": 2,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T02:12:42.245Z",
+        "lastEditedDateTime": "2024-01-23T02:14:39.492Z",
+        "cells": [
+          {
+            "id": "9fe1e2be-e905-4e4d-8ba6-7627d4aee781",
+            "columnId": "a5421472-bb12-4841-837d-073109e8e726",
+            "content": "Kevin De Bruyne",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "8af8806b-9ffe-46e6-b3f9-3631dca7f510",
+            "columnId": "f5640c72-9366-4fdb-96b8-fe66db62114c",
+            "value": 17,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "3e27899b-b75a-449a-82c0-a48ea205725b",
+            "columnId": "324c0e5e-39bd-46da-b47c-2b9d5103558c",
+            "content": "Belgium",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "d5018ee5-f217-4180-9712-fcc34a86b025",
+            "columnId": "1e63ae4c-ef20-4d2b-971e-588e030403da",
+            "content": "32 Tahun",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "bcd67f06-749c-45b7-96c7-db487135113f",
+        "index": 3,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T02:12:43.193Z",
+        "lastEditedDateTime": "2024-01-23T02:14:52.403Z",
+        "cells": [
+          {
+            "id": "e718cb11-8a2a-4b95-8443-9ce7dc4bd0e9",
+            "columnId": "a5421472-bb12-4841-837d-073109e8e726",
+            "content": "Phill Foden",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "41d095d3-16a5-4ddd-847a-db216f328956",
+            "columnId": "f5640c72-9366-4fdb-96b8-fe66db62114c",
+            "value": 10,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "8d281c9a-4d8f-4e01-bae5-083f77c62e1b",
+            "columnId": "324c0e5e-39bd-46da-b47c-2b9d5103558c",
+            "content": "Inggris",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "d1394813-eb62-47b8-b5d2-6e428fdbcfd5",
+            "columnId": "1e63ae4c-ef20-4d2b-971e-588e030403da",
+            "content": "23 Tahun",
+            "hasValidFrontmatter": null
+          }
+        ]
+      }
+    ],
+    "filters": [],
+    "sources": [],
+    "settings": {
+      "numFrozenColumns": 1,
+      "showCalculationRow": true
+    },
+    "externalRowOrder": []
+  },
+  "pluginVersion": "8.15.11"
+}
