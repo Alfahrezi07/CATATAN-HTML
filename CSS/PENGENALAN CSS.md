@@ -181,8 +181,7 @@ button{
 
 > [!PENJELASAN]
 > Kode tersebut adalah aturan CSS yang mengatur gaya (style) dari elemen `<button>` pada halaman web.
-> 
- height: 50px;: Menetapkan tinggi (height) tombol menjadi 50 piksel.
+height: 50px;: Menetapkan tinggi (height) tombol menjadi 50 piksel.
 width: 150px;: Menetapkan lebar (width) tombol menjadi 150 piksel.
 font-size: 30px;: Menetapkan ukuran font menjadi 30 piksel untuk teks di dalam tombol.
 Jadi, aturan tersebut akan membuat tombol memiliki tinggi 50 piksel, lebar 150 piksel, dan teks di dalamnya memiliki ukuran font 30 piksel.
@@ -246,7 +245,6 @@ button{
 > [!PENJELASAN]
 > 
 > Kode tersebut adalah aturan CSS yang mengatur gaya (style) dari elemen `<button>` pada halaman web.
-> 
 height: 50px;: Menetapkan tinggi (height) tombol menjadi 50 piksel.
 width: 150px;: Menetapkan lebar (width) tombol menjadi 150 piksel.
 background-color: red;: Menetapkan warna latar belakang (background color) tombol menjadi merah.
@@ -304,7 +302,6 @@ button{
 > [!PENJELASAN]
 > 
 > Kode tersebut adalah aturan CSS yang mengatur gaya (style) dari elemen `<button>` pada halaman web.
-> 
 height: 50px;: Menetapkan tinggi (height) tombol menjadi 50 piksel.
 width: 150px;: Menetapkan lebar (width) tombol menjadi 150 piksel.
 border-radius: 10px;: Menetapkan radius sudut (border radius) tombol menjadi 10 piksel.
@@ -666,16 +663,6 @@ Selector nama elemen dalam CSS digunakan untuk memilih semua elemen HTML dengan 
 
   </head>
   <body>
-
-
-
-<!--
-    
-    <button>
-      klik disini
-    </button>  
-    
-    -->
     
     
     <p>
@@ -1157,7 +1144,7 @@ text-decoration: line-through;
 
 ### HASIL
 
->![Foto_hasil](AsetsSs/IMG-10.jpg)
+>![Foto_hasil](Asetsss/IMG-10.jpg)
 
 
 
@@ -1267,7 +1254,7 @@ text-transform: uppercase;
 ### HASIL
 
 
->![Foto_hasil](AsetsSs/IMG-14.jpg)
+>![Foto_hasil](Asetsss/IMG-14.jpg)
 
 
 
@@ -1368,7 +1355,7 @@ text-indent: 100px;
 ### HASIL
 
 
->![Foto_hasil](AsetsSs/IMG-09.jpg)
+>![Foto_hasil](Asetsss/IMG-09.jpg)
 
 
 
@@ -1467,7 +1454,7 @@ letter-spacing: 8px;
 ### HASIL
 
 
->![Foto_hasil](AsetsSs/IMG-11.jpg)
+>![Foto_hasil](Asetsss/IMG-11.jpg)
 
 
 
@@ -1571,7 +1558,7 @@ line-height: 100px;
 ### HASIL
 
 
->![Foto_hasil](AsetsSs/IMG-13.jpg)
+>![Foto_hasil](Asetsss/IMG-13.jpg)
 
 
 
@@ -1679,7 +1666,7 @@ word-spacing: 50px;
 ### HASIL
 
 
->![Foto_hasil](AsetsSs/IMG-12.jpg)
+>![Foto_hasil](Asetsss/IMG-12.jpg)
 
 
 
