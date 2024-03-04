@@ -59,8 +59,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/CATATAN  HTML.md",
-                "mode": "source",
+                "file": "CSS/PENGENALAN CSS.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -140,7 +140,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "HTML/CATATAN  HTML.md",
+            "file": "CSS/PENGENALAN CSS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "HTML/CATATAN  HTML.md",
+            "file": "CSS/PENGENALAN CSS.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -169,7 +169,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "HTML/CATATAN  HTML.md"
+            "file": "CSS/PENGENALAN CSS.md"
           }
         }
       }
@@ -185,14 +185,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3603b26666d33ed7",
+  "active": "b6b9958a01ddb502",
   "lastOpenFiles": [
-    "HTML/Asets/IMG-14.jpg",
-    "HTML/CATATAN  HTML.md",
-    "BASIS DATA/CATATAN  BASIS DATA.md",
+    "CSS/Asetsss/IMG-44.jpg",
+    "CSS/Asetsss/IMG-43.jpg",
+    "CSS/Asetsss/IMG-42.jpg",
+    "CSS/Asetsss/IMG-41.jpg",
+    "CSS/PENGENALAN CSS.md",
+    "CSS/Asetsss/IMG-40.jpg",
+    "CSS/Asetsss/IMG-38.jpg",
+    "CSS/Asetsss/IMG-37.jpg",
+    "CSS/Asetsss/IMG-36.jpg",
+    "CSS/Asetsss/IMG-39.jpg",
+    "CSS/Asetsss/IMG-16.jpg",
+    "CSS/Asetsss/IMG-31.jpg",
+    "BASIS DATA/SELECT LANJUTAN.md",
     "BASIS DATA/Instalasi & Query Awal Database.md",
+    "CSS/CSS.md",
     "BASIS DATA/PR Tugas DATABASE.md",
     "BASIS DATA/Pengenalan BASIS DATA.md",
+    "BASIS DATA/Pelajaran BASIS DATA.md",
+    "HTML/Asets/CATATAN  HTML.md",
+    "BASIS DATA/CATATAN  BASIS DATA.md",
+    "HTML/CATATAN  HTML.md",
     "HTML/4) Pengenalan HTML.md",
     "HTML/3) Deskripsi HTML, CSS, JS.md",
     "HTML/2) Simpulkan Video Pengantar Web.md",
@@ -200,21 +215,7 @@
     "Vault.md",
     "SEMUA TENTANG HTML.md",
     "Untitled",
-    "HTML/Asets/IMG-48.jpg",
-    "HTML/Asets/IMG-47.jpg",
-    "CSS/PENGENALAN CSS.md",
-    "BASIS DATA/Pelajaran BASIS DATA.md",
     "HTML/1) Pertemuan .md",
-    "CSS/CSS.md",
-    "BASIS DATA/SELECT LANJUTAN.md",
-    "BASIS DATA/Asetss/IMG-35.jpg",
-    "BASIS DATA/Asetss/IMG-34.jpg",
-    "BASIS DATA/Asetss/IMG-33.jpg",
-    "BASIS DATA/Asetss/IMG-32.jpg",
-    "BASIS DATA/Asetss/IMG-31.jpg",
-    "BASIS DATA/Asetss/IMG-30.jpg",
-    "BASIS DATA/Asetss/IMG-29.jpg",
-    "BASIS DATA/Asetss/IMG-28.jpg",
     "Materi Obsidian/5_6123089390756434478.md",
     "CSS/Asetsss/Asetsss.md",
     "CSS/Asetsss",
@@ -230,7 +231,6 @@
     "Asetds",
     "BASIS DATA/Asetss/Asetss.md",
     "BASIS DATA/Asetss",
-    "IMG_20240122_110807.jpg.md",
     "Materi Obsidian",
     "Pelajaran BASIS DATA/Pelajaran BASIS DATA",
     "HTML/Pertemuan 1/Untitled.canvas",
