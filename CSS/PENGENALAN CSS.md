@@ -189,6 +189,12 @@ Jadi, aturan tersebut akan membuat tombol memiliki tinggi 50 piksel, lebar 150 p
 
 
 
+> [!PENJELASAN]
+> Ukuran font, atau font size, mengacu pada besarnya teks pada suatu dokumen atau halaman. Diukur dalam poin, semakin besar nilai poinnya, semakin besar ukuran teksnya. Contohnya, font size 12pt biasanya digunakan untuk teks biasa, sementara font size 18pt mungkin digunakan untuk judul yang lebih besar. Penyesuaian font size dapat memengaruhi keterbacaan dan tata letak dokumen.
+
+
+
+
 
 
 
@@ -254,6 +260,11 @@ Jadi, aturan tersebut akan membuat tombol memiliki tinggi 50 piksel, lebar 150 p
 
 
 
+> [!PENJELASAN]
+> Warna latar belakang, atau background color, merujuk pada warna yang diterapkan pada latar belakang suatu elemen, seperti halaman web, dokumen, atau elemen desain grafis. Memilih background color yang sesuai dapat mempengaruhi tampilan keseluruhan dan membantu menonjolkan elemen lain di dalamnya. Misalnya, warna latar belakang yang kontras dapat meningkatkan daya baca teks atau menyorot elemen desain tertentu.
+
+
+
 
 
 
@@ -310,6 +321,10 @@ Jadi, aturan tersebut akan membuat tombol memiliki tinggi 50 piksel, lebar 150 p
 
 
 
+
+
+> [!PENJELASAN]
+> Border radius merujuk pada sudut lengkung di ujung elemen, seperti kotak atau persegi panjang. Ini memungkinkan pembentukan sudut yang lebih lembut dengan memberikan efek melengkung pada tepi elemen tersebut. Menggunakan properti border radius pada elemen, seperti di CSS untuk desain web, dapat memberikan tampilan yang lebih estetis dan ramah mata. Nilai border radius dapat diatur dalam piksel atau persentase, memberikan fleksibilitas dalam menentukan sejauh mana lengkung yang diinginkan pada sudut elemen.
 
 
 
@@ -947,7 +962,7 @@ Jadi, selector ID dalam CSS digunakan untuk memilih dan memberikan aturan gaya k
 
 ---
 
-# MATERI FONT
+
 
 
 
