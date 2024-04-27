@@ -67,7 +67,7 @@ Parameter ini menentukan **pengguna** (**user**) yang akan digunakan untuk masuk
 
 ## Buat Database
 
-Untuk membuat database di SQL, Anda dapat menggunakan perintah `CREATE DATABASE` dengan menentukan nama database yang diinginkan. Pastikan untuk memiliki hak akses yang sesuai, dan verifikasi pembuatan database dengan perintah `SHOW DATABASE`S. Pengetahuan tentang sintaks SQL dan hak akses server diperlukan untuk menjalankan operasi ini dengan sukses.
+Untuk membuat database di SQL, Anda dapat menggunakan perintah `CREATE DATABASE` dengan menentukan nama database yang diinginkan. Pastikan untuk memiliki hak akses yang sesuai, dan verifikasi pembuatan database dengan perintah `SHOW DATABASES`. Pengetahuan tentang sintaks SQL dan hak akses server diperlukan untuk menjalankan operasi ini dengan sukses.
 
 
 ### STRUKTUR
@@ -150,7 +150,7 @@ Kode tersebut merupakan perintah untuk menampilkan daftar database yang ada dala
 
 
 
-Kode "SHOW DATABASES;" digunakan untuk menampilkan daftar semua database yang ada dalam sistem basis data yang sedang digunakan. Dengan demikian, kesimpulannya adalah perintah ini bertujuan untuk memberikan informasi tentang semua database yang telah dibuat atau tersedia.
+Kode `SHOW DATABASES;` digunakan untuk menampilkan daftar semua database yang ada dalam sistem basis data yang sedang digunakan. Dengan demikian, kesimpulannya adalah perintah ini bertujuan untuk memberikan informasi tentang semua database yang telah dibuat atau tersedia.
 
 
 
@@ -192,7 +192,7 @@ DROP DATABASE xi_rpl_1;
 ### ANALISIS
 
 
-Kode "DROP DATABASE xi_rpl_1;" digunakan untuk menghapus database dengan nama "xi_rpl_1". Perlu diperhatikan bahwa perintah ini bersifat permanen dan akan menghapus semua data yang terkait dengan database tersebut.
+Kode `DROP DATABASE xi_rpl_1;` digunakan untuk menghapus database dengan nama "xi_rpl_1". Perlu diperhatikan bahwa perintah ini bersifat permanen dan akan menghapus semua data yang terkait dengan database tersebut.
 
 
 
@@ -205,7 +205,7 @@ Kode "DROP DATABASE xi_rpl_1;" digunakan untuk menghapus database dengan nama "x
 ### KESIMPULAN
 
 
-Kesimpulan dari kode "DROP DATABASE xi_rpl_1;" adalah bahwa perintah tersebut bertujuan untuk menghapus database permanen dengan nama "xi_rpl_1" beserta seluruh data yang terkait.
+Kesimpulan dari kode `DROP DATABASE xi_rpl_1;` adalah bahwa perintah tersebut bertujuan untuk menghapus database permanen dengan nama "xi_rpl_1" beserta seluruh data yang terkait.
 
 
 
@@ -254,7 +254,7 @@ USE xi_rpl_1;
 ### ANALISIS
 
 
-Kode "USE xi_rpl_1;" digunakan untuk beralih dan menggunakan database dengan nama "xi_rpl_1". Ini menetapkan database tersebut sebagai database aktif, sehingga perintah-perintah selanjutnya akan berlaku untuk database tersebut.
+Kode `USE xi_rpl_1;` digunakan untuk beralih dan menggunakan database dengan nama "xi_rpl_1". Ini menetapkan database tersebut sebagai database aktif, sehingga perintah-perintah selanjutnya akan berlaku untuk database tersebut.
 
 
 
@@ -268,7 +268,7 @@ Kode "USE xi_rpl_1;" digunakan untuk beralih dan menggunakan database dengan nam
 ### KESIMPULAN
 
 
-Kesimpulan dari kode "USE xi_rpl_1;" adalah bahwa perintah tersebut bertujuan untuk beralih dan menggunakan database aktif dengan nama "xi_rpl_1".
+Kesimpulan dari kode `USE xi_rpl_1;` adalah bahwa perintah tersebut bertujuan untuk beralih dan menggunakan database aktif dengan nama "xi_rpl_1".
 
 
 
@@ -473,7 +473,15 @@ CREATE TABLE pelanggan ( id_pelanggan int(4)PRIMARY KEY NOT NULL , nama_depan va
 ### ANALISIS
 
 
-Kode tersebut merupakan perintah untuk membuat tabel baru bernama "pelanggan" dalam database yang aktif. Tabel ini memiliki kolom-kolom seperti "id_pelanggan" dengan tipe data integer, berperan sebagai kunci utama (PRIMARY KEY) yang tidak boleh kosong (NOT NULL), "nama_depan" dengan tipe data varchar(25) yang tidak boleh kosong, "nama_belakang" dengan tipe data varchar(25), dan "no_telp" dengan tipe data char(12) yang memiliki sifat UNIQUE, yang berarti harus memiliki nilai yang unik di antara semua entri dalam kolom tersebut.
+`CREATE TABLE` : diikuti oleh nama tabel yang ingin dibuat, yaitu "pelanggan". Setelah itu, di dalam tanda kurung, diberikan definisi untuk setiap kolom yang akan dimiliki oleh tabel tersebut. Setiap kolom memiliki nama, tipe data, dan batasan-batasan tertentu.
+
+`id_pelanggan` : Kolom ini memiliki tipe data integer `INT` dengan panjang maksimum 4 digit. Kolom ini juga ditetapkan sebagai kunci utama (`PRIMARY KEY`) yang berarti nilainya harus unik untuk setiap baris dalam tabel dan tidak boleh kosong (`NOT NULL`).
+
+`nama_depan` : Kolom ini memiliki tipe data `varchar` dengan panjang maksimum 25 karakter. Kolom ini juga ditetapkan sebagai kolom yang tidak boleh kosong (`NOT NULL`).
+
+`nama_belakang` : Kolom ini memiliki tipe data `varchar` dengan panjang maksimum 25 karakter. Kolom ini dibiarkan opsional, yang berarti nilai-nilainya boleh kosong.
+
+`no_telp` : Kolom ini memiliki tipe data `char` dengan panjang 12 karakter. Kolom ini ditetapkan sebagai kolom yang harus memiliki nilai unik (`UNIQUE`), yang berarti setiap nomor telepon harus unik di antara semua entri dalam tabel.
 
 
 
@@ -527,7 +535,7 @@ DESC pelanggan;
 
 ### ANALISIS
 
-Kode "DESC pelanggan;" digunakan untuk mendapatkan deskripsi atau struktur dari tabel "pelanggan". Ini memberikan informasi tentang kolom-kolom dalam tabel beserta tipe data, dan constraint (jika ada). 
+Kode `DESC pelanggan;` digunakan untuk mendapatkan deskripsi atau struktur dari tabel "pelanggan". Ini memberikan informasi tentang kolom-kolom dalam tabel beserta tipe data, dan constraint (jika ada). 
 
 
 
@@ -540,7 +548,7 @@ Kode "DESC pelanggan;" digunakan untuk mendapatkan deskripsi atau struktur dari 
 ### KESIMPULAN
 
 
-Kesimpulan dari kode "DESC pelanggan;" adalah bahwa perintah tersebut bertujuan untuk menampilkan deskripsi atau struktur dari tabel dengan nama "pelanggan". Ini memberikan informasi tentang kolom-kolom yang ada dalam tabel, seperti nama kolom, tipe data, dan konstrain yang mungkin diterapkan.
+Kesimpulan dari kode `DESC pelanggan;` adalah bahwa perintah tersebut bertujuan untuk menampilkan deskripsi atau struktur dari tabel dengan nama "pelanggan". Ini memberikan informasi tentang kolom-kolom yang ada dalam tabel, seperti nama kolom, tipe data, dan konstrain yang mungkin diterapkan.
 
 
 
@@ -588,7 +596,7 @@ SHOW TABLES;
 ### ANALISIS
 
 
-Kode "SHOW TABLES;" digunakan untuk menampilkan daftar semua tabel yang ada dalam database yang sedang digunakan. Ini membantu pengguna untuk melihat tabel-tabel mana yang telah dibuat atau tersedia dalam database tersebut.
+Kode `SHOW TABLES;` digunakan untuk menampilkan daftar semua tabel yang ada dalam database yang sedang digunakan. Ini membantu pengguna untuk melihat tabel-tabel mana yang telah dibuat atau tersedia dalam database tersebut.
 
 
 
@@ -603,7 +611,7 @@ Kode "SHOW TABLES;" digunakan untuk menampilkan daftar semua tabel yang ada dala
 ### KESIMPULAN
 
 
-Kesimpulan dari "SHOW TABLES;" adalah perintah tersebut digunakan untuk menampilkan daftar semua tabel yang ada dalam database yang sedang digunakan.
+Kesimpulan dari `SHOW TABLES;` adalah perintah tersebut digunakan untuk menampilkan daftar semua tabel yang ada dalam database yang sedang digunakan.
 
 
 
@@ -716,10 +724,11 @@ INSERT INTO pelanggan VALUES(1,"Farel","Alfahrezi",'083856721479');
 
 ### ANALISIS
 
+`INSERT INTO pelanggan` : Ini menunjukkan bahwa kita ingin menyisipkan data ke dalam tabel bernama "pelanggan".
 
-Kode tersebut adalah perintah SQL yang bertujuan untuk memasukkan data baru ke dalam tabel "pelanggan". Data yang dimasukkan adalah sebagai berikut:
-Data yang dimasukkan melibatkan informasi seperti ID pelanggan (1), nama depan ("Farel"), nama belakang ("Alfahrezi"), dan nomor telepon ('083856721479').
-Perintah INSERT INTO digunakan untuk menambahkan data ke dalam tabel yang telah ditentukan. Sintaks VALUES digunakan untuk menentukan nilai-nilai yang akan dimasukkan ke dalam tabel, sesuai dengan urutan kolom-kolom yang telah didefinisikan dalam tabel tersebut.
+`VALUES` : Ini menunjukkan bahwa nilai-nilai yang ingin dimasukkan adalah sebagai berikut.
+
+`(1,"Farel","Alfahrezi",'083856721479')` : Ini adalah nilai-nilai yang ingin dimasukkan ke dalam tabel. Urutannya sesuai dengan urutan kolom-kolom dalam tabel.
 
 
 
@@ -731,6 +740,9 @@ Perintah INSERT INTO digunakan untuk menambahkan data ke dalam tabel yang telah 
 
 
 ### KESIMPULAN
+
+
+Perintah ini menyisipkan satu baris data baru ke dalam tabel "pelanggan" dengan nilai-nilai yang spesifik untuk setiap kolom.
 
 
 Kesimpulan dari kode tersebut adalah sebuah perintah SQL untuk menyisipkan data ke dalam tabel pelanggan. Data yang dimasukkan mencakup ID pelanggan (1), nama depan ("Farel"), nama belakang ("Alfahrezi"), dan nomor telepon ('083856721479').
@@ -785,7 +797,12 @@ INSERT INTO pelanggan VALUES (4,"zhafran","Muh_zhafran",'085222666206'), (5,"ahs
 ### ANALISIS
 
 
-Kode tersebut merupakan perintah SQL untuk menyisipkan beberapa baris data sekaligus ke dalam tabel "pelanggan". Data yang dimasukkan mencakup dua baris dengan kolom-kolom yang sama seperti yang telah disebutkan sebelumnya: ID pelanggan, nama depan, nama belakang, dan nomor telepon. Baris pertama memiliki nilai ID pelanggan 4, nama depan "zhafran", nama belakang "Muh_zhafran", dan nomor telepon '085222666206'. Baris kedua memiliki nilai ID pelanggan 5, nama depan "ahsan", nama belakang "ahsan_putar", dan nomor telepon '088777222872'.
+`INSERT INTO pelanggan` : Menunjukkan bahwa kita ingin menyisipkan data ke dalam tabel bernama "pelanggan".
+
+`VALUES` : Menunjukkan bahwa nilai-nilai yang ingin dimasukkan adalah sebagai berikut.
+
+`(4,"zhafran","Muh_zhafran",'085222666206')`  , `(5,"ahsan","ahsan_putar",'088777222872')` : Ini adalah beberapa set nilai yang ingin dimasukkan ke dalam tabel. Setiap set nilai dipisahkan oleh koma.
+
 
 
 
@@ -796,7 +813,7 @@ Kode tersebut merupakan perintah SQL untuk menyisipkan beberapa baris data sekal
 ### KESIMPULAN
 
 
-Kesimpulan dari kode tersebut adalah perintah SQL untuk menyisipkan dua baris data sekaligus ke dalam tabel "pelanggan". Data tersebut mencakup informasi seperti ID pelanggan, nama depan, nama belakang, dan nomor telepon untuk dua pelanggan dengan ID 4 dan 5.
+Jadi, perintah ini akan menyisipkan dua baris data atau lebih dari 1 baris baru ke dalam tabel "pelanggan" sekaligus dengan nilai-nilai yang spesifik untuk setiap kolom dalam setiap baris data.
 
 
 
@@ -849,7 +866,12 @@ INSERT INTO pelanggan (nama_depan,id_pelanggan) VALUES ("adiguna",6);
 ### ANALISIS
 
 
-Kode "INSERT INTO pelanggan VALUES(1, 'Farel', 'Alfahrezi', '083856721479');" digunakan untuk menambahkan baris data baru ke dalam tabel "pelanggan". Nilai yang ditentukan untuk setiap kolom adalah, secara berurutan, 1 untuk kolom "id_pelanggan", 'Farel' untuk kolom "nama_depan", 'Alfahrezi' untuk kolom "nama_belakang", dan '083856721479' untuk kolom "no_telp".
+`INSERT INTO pelanggan` : Menunjukkan bahwa kita ingin menyisipkan data ke dalam tabel bernama "pelanggan".
+
+`(nama_depan, id_pelanggan)` : Ini adalah daftar kolom-kolom tertentu dalam tabel "pelanggan" di mana kita ingin menyisipkan nilai-nilai.
+
+`VALUES ("adiguna", 6)` : Ini adalah nilai-nilai yang ingin dimasukkan ke dalam kolom-kolom yang ditentukan. Urutannya harus sesuai dengan urutan kolom yang disebutkan sebelumnya.
+
 
 
 
@@ -858,7 +880,8 @@ Kode "INSERT INTO pelanggan VALUES(1, 'Farel', 'Alfahrezi', '083856721479');" di
 ### KESIMPULAN
 
 
-Kesimpulan dari "INSERT INTO pelanggan VALUES(1, 'Farel', 'Alfahrezi', '083856721479');" adalah bahwa perintah tersebut digunakan untuk menyisipkan data baru ke dalam tabel "pelanggan" dengan nilai tertentu untuk setiap kolom. Dalam contoh ini, data baru tersebut mencakup ID pelanggan 1, nama depan "Farel", nama belakang "Alfahrezi", dan nomor telepon "083856721479".
+Jadi, perintah ini akan menyisipkan satu baris data baru ke dalam tabel "pelanggan", hanya dengan mengisi kolom "nama_depan" dan "id_pelanggan", sedangkan kolom-kolom lainnya akan menggunakan nilai defaultnya atau `NULL` jika tidak diberikan.
+
 
 
 
@@ -924,7 +947,7 @@ SELECT * FROM pelanggan;
 ### ANALISIS
 
 
-Kode "SELECT * FROM pelanggan;" digunakan untuk mengambil semua data (seluruh kolom) dari tabel "pelanggan". Ini akan menghasilkan output yang menampilkan semua baris dan kolom yang ada dalam tabel tersebut.
+Kode `SELECT * FROM pelanggan;` digunakan untuk mengambil semua data (seluruh kolom) dari tabel "pelanggan". Ini akan menghasilkan output yang menampilkan semua baris dan kolom yang ada dalam tabel tersebut.
 
 
 
@@ -938,7 +961,7 @@ Kode "SELECT * FROM pelanggan;" digunakan untuk mengambil semua data (seluruh ko
 ### KESIMPULAN
 
 
-Kesimpulan dari "SELECT * FROM pelanggan;" adalah bahwa perintah tersebut bertujuan untuk menampilkan semua data (seluruh kolom) yang ada dalam tabel "pelanggan".
+Kesimpulan dari `SELECT * FROM pelanggan;` adalah bahwa perintah tersebut bertujuan untuk menampilkan semua data (seluruh kolom) yang ada dalam tabel "pelanggan".
 
 
 
@@ -1001,7 +1024,7 @@ SELECT id_pelanggan FROM pelanggan;
 ### ANALISIS
 
 
-Kode "SELECT nama_depan FROM pelanggan;" digunakan untuk mengambil data dari kolom "nama_depan" dari tabel "pelanggan". Ini akan menghasilkan output yang menampilkan nilai-nilai yang ada dalam kolom "nama_depan" untuk setiap baris dalam tabel tersebut.
+Kode `SELECT nama_depan FROM pelanggan;` digunakan untuk mengambil data dari kolom "nama_depan" dari tabel "pelanggan". Ini akan menghasilkan output yang menampilkan nilai-nilai yang ada dalam kolom "nama_depan" untuk setiap baris dalam tabel tersebut.
 
 
 
@@ -1014,7 +1037,7 @@ Kode "SELECT nama_depan FROM pelanggan;" digunakan untuk mengambil data dari kol
 ### KESIMPULAN
 
 
-Kesimpulan dari "SELECT nama_depan FROM pelanggan;" adalah bahwa perintah tersebut digunakan untuk menampilkan nilai dari kolom "nama_depan" dari tabel "pelanggan".
+Kesimpulan dari `SELECT nama_depan FROM pelanggan;` adalah bahwa perintah tersebut digunakan untuk menampilkan nilai dari kolom "nama_depan" dari tabel "pelanggan".
 
 
 
@@ -1086,8 +1109,11 @@ SELECT nama_belakang FROM pelanggan WHERE id_pelanggan=1;
 ### ANALISIS
 
 
-Kode "SELECT nama_depan FROM pelanggan WHERE id_pelanggan=2;" digunakan untuk mengambil nilai dari kolom "nama_depan" dari tabel "pelanggan" hanya untuk baris yang memiliki nilai "id_pelanggan" sama dengan 2. Ini memfilter data dan hanya menampilkan hasil yang memenuhi kondisi tertentu.
+`SELECT nama_depan` : Ini menunjukkan bahwa kita ingin mengambil nilai dari kolom "nama_depan".
 
+`FROM pelanggan` : Ini menunjukkan bahwa kita ingin mengambil data dari tabel "pelanggan".
+
+`WHERE id_pelanggan=2` : Ini adalah klausa yang digunakan untuk memberikan kriteria pencarian. Dalam hal ini, kita hanya ingin mendapatkan data dari baris yang memiliki nilai "`id_pelanggan`" sama dengan 2.
 
 
 
@@ -1100,7 +1126,7 @@ Kode "SELECT nama_depan FROM pelanggan WHERE id_pelanggan=2;" digunakan untuk me
 ### KESIMPULAN
 
 
-Kesimpulan dari "SELECT nama_depan FROM pelanggan WHERE id_pelanggan=2;" adalah perintah tersebut bertujuan untuk menampilkan nilai dari kolom "nama_depan" hanya untuk baris di tabel "pelanggan" yang memiliki nilai "id_pelanggan" sama dengan 2.
+Jadi, perintah ini akan mengambil nilai kolom "`nama_depan`" dari baris di dalam tabel "pelanggan" di mana nilai "`id_pelanggan`" sama dengan 2.
 
 
 
@@ -1156,7 +1182,11 @@ UPDATE pelanggan SET no_telp="088889999777"  WHERE id_pelanggan="2";
 ### ANALISIS
 
 
-Kode "UPDATE pelanggan SET no_telp='088889999777' WHERE id_pelanggan='2';" digunakan untuk memperbarui nilai kolom "no_telp" pada tabel "pelanggan" dengan nilai baru "088889999777" hanya untuk baris yang memiliki nilai "id_pelanggan" sama dengan 2. Ini adalah perintah untuk mengubah data yang sudah ada dalam tabel.
+`UPDATE pelanggan` : Menunjukkan bahwa kita ingin memperbarui data di dalam tabel "pelanggan".
+
+`SET no_telp="088889999777"` : Menetapkan nilai baru `"088889999777"` ke dalam kolom "`no_telp`".
+
+`WHERE id_pelanggan="2"` : Ini adalah klausa yang digunakan untuk memberikan kriteria pembaruan. Dalam hal ini, kita hanya ingin memperbarui data pada baris di mana nilai "`id_pelanggan`" sama dengan `2`.
 
 
 
@@ -1170,8 +1200,7 @@ Kode "UPDATE pelanggan SET no_telp='088889999777' WHERE id_pelanggan='2';" digun
 ### KESIMPULAN
 
 
-Kesimpulan dari "UPDATE pelanggan SET no_telp='088889999777' WHERE id_pelanggan='2';" adalah bahwa perintah tersebut digunakan untuk memperbarui nilai kolom "no_telp" pada tabel "pelanggan" dengan nilai baru "088889999777" hanya untuk baris yang memiliki nilai "id_pelanggan" sama dengan 2.
-
+Jadi, perintah ini akan memperbarui nilai kolom "`no_telp`" menjadi `"088889999777"` di dalam tabel "pelanggan" di mana nilai "`id_pelanggan`" sama dengan `2`.
 
 
 
@@ -1228,7 +1257,9 @@ DELETE FROM pelanggan WHERE id_pelanggan="3";
 ### ANALISIS
 
 
-Kode "DELETE FROM pelanggan WHERE id_pelanggan='3';" digunakan untuk menghapus baris dari tabel "pelanggan" di mana nilai kolom "id_pelanggan" sama dengan 3. Ini adalah perintah untuk menghapus data tertentu dari tabel berdasarkan kondisi yang diberikan. Dalam contoh ini, baris dengan "id_pelanggan" 3 akan dihapus.
+`DELETE FROM pelanggan` : Menunjukkan bahwa kita ingin menghapus data dari tabel "pelanggan".
+
+`WHERE id_pelanggan="3"` : Ini adalah klausa yang digunakan untuk memberikan kriteria penghapusan. Dalam hal ini, kita ingin menghapus baris data di mana nilai kolom "`id_pelanggan`" sama dengan `3`.
 
 
 
@@ -1242,7 +1273,7 @@ Kode "DELETE FROM pelanggan WHERE id_pelanggan='3';" digunakan untuk menghapus b
 ### KESIMPULAN
 
 
-Kesimpulan dari "DELETE FROM pelanggan WHERE id_pelanggan='3';" adalah bahwa perintah tersebut digunakan untuk menghapus baris dari tabel "pelanggan" di mana nilai kolom "id_pelanggan" sama dengan 3. Ini adalah perintah untuk menghapus data tertentu dari tabel berdasarkan kondisi yang diberikan. Dalam contoh ini, baris dengan "id_pelanggan" 3 akan dihapus.
+Jadi, perintah ini akan menghapus baris data dari tabel "pelanggan" di mana nilai "`id_pelanggan`" sama dengan `3`.
 
 
 
@@ -1303,7 +1334,7 @@ DROP TABLE pembuatan;
 ### ANALISIS
 
 
-Kode "DROP TABLE pembuatan;" digunakan untuk menghapus tabel dengan nama "pembuatan". Perlu diingat bahwa perintah ini bersifat permanen dan akan menghapus seluruh struktur dan data yang terkait dengan tabel tersebut.
+Kode `DROP TABLE pembuatan;` digunakan untuk menghapus tabel dengan nama "`pembuatan`". Perlu diingat bahwa perintah ini bersifat permanen dan akan menghapus seluruh struktur dan data yang terkait dengan tabel tersebut.
 
 
 
@@ -1318,7 +1349,7 @@ Kode "DROP TABLE pembuatan;" digunakan untuk menghapus tabel dengan nama "pembua
 ### KESIMPULAN
 
 
-Kesimpulan dari "DROP TABLE pembuatan;" adalah bahwa perintah tersebut bertujuan untuk menghapus tabel dengan nama "pembuatan". Ini merupakan tindakan permanen dan akan menghapus seluruh struktur dan data yang terkait dengan tabel tersebut.
+Kesimpulan dari `DROP TABLE pembuatan;` adalah bahwa perintah tersebut bertujuan untuk menghapus tabel dengan nama "`pembuatan`". Ini merupakan tindakan permanen dan akan menghapus seluruh struktur dan data yang terkait dengan tabel tersebut.
 
 
 
