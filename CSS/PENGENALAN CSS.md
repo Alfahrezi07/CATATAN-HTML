@@ -46,7 +46,7 @@ Dalam CSS, "property value" adalah nilai yang diberikan kepada suatu properti un
 
 Kode HTML tersebut merupakan kerangka dasar sebuah halaman web. Terdapat dua elemen `<p>` yang berisi teks "WELCOME CSS!!!" dan dihubungkan dengan file CSS eksternal "style.css" menggunakan tag `<link>` di dalam bagian `<head>`.
 
-Kemudian, dalam file CSS "style.css", aturan tersebut (p { color: aqua; }) menentukan bahwa teks pada semua elemen `<p>` dalam halaman tersebut akan memiliki warna aqua. Jadi, teks "WELCOME CSS!!!" pada kedua elemen `<p>` akan memiliki warna teks aqua.
+Kemudian, dalam file CSS "`style.css`", aturan tersebut `(p { color: aqua; })` menentukan bahwa teks pada semua elemen `<p>` dalam halaman tersebut akan memiliki warna aqua. Jadi, teks "WELCOME CSS!!!" pada kedua elemen `<p>` akan memiliki warna teks aqua.
 
 
 
@@ -350,7 +350,7 @@ Jadi, aturan tersebut akan membuat tombol memiliki tinggi 50 piksel, lebar 150 p
 
 # CARA PEMANGGILAN CSS
 
----
+
 
 ## SECARA INTERNAL
 
@@ -444,7 +444,7 @@ Jadi, pemanggilan CSS secara internal dalam HTML melibatkan penempatan aturan ga
 
 
 
----
+
 
 
 
@@ -516,20 +516,6 @@ Pemanggilan CSS secara inline dalam HTML melibatkan penggunaan properti gaya lan
 
 
 Jadi, pemanggilan CSS secara inline dalam HTML melibatkan penggunaan atribut `style` pada tag HTML individual untuk menentukan aturan gaya langsung. Ini memberikan fleksibilitas untuk menentukan gaya khusus untuk elemen-elemen tertentu tanpa perlu menggunakan file eksternal atau menambahkan tag `<style>` di bagian `<head>`. Meskipun efektif untuk aturan gaya yang spesifik, pemanggilan CSS secara inline dapat membuat HTML menjadi kurang terbaca dan lebih sulit dikelola jika digunakan secara berlebihan. Sebagai alternatif, pemanggilan CSS eksternal atau internal mungkin lebih disarankan untuk proyek yang lebih besar atau kompleks.
-
-
-
-
-
-
-
-
----
-
-
-
-
-
 
 
 
@@ -642,13 +628,13 @@ Jadi, pemanggilan CSS secara eksternal dalam HTML melibatkan penggunaan file ter
 
 
 
----
----
+
+
 
 
 # Selector CSS
 
----
+
 
 ## Selector nama elemen
 
@@ -960,7 +946,7 @@ Jadi, selector ID dalam CSS digunakan untuk memilih dan memberikan aturan gaya k
 
 
 
----
+
 
 
 
@@ -968,7 +954,7 @@ Jadi, selector ID dalam CSS digunakan untuk memilih dan memberikan aturan gaya k
 
 # TEXT 
 
----
+
 
 ## Text-align
 
@@ -1703,16 +1689,13 @@ Jadi, `word-spacing` digunakan untuk mengatur jarak antara kata-kata dalam teks 
 
 
 
----
----
-
 
 
 
 
 # BACKGROUND
 
----
+
 
 ## Background-image
 
@@ -2286,15 +2269,15 @@ Jadi, `background-position` memungkinkan Anda menentukan posisi awal gambar lata
 
 
 
----
----
+
+
 
 
 
 
 # FONT
 
----
+
 
 ## Font-size
 
@@ -2752,12 +2735,12 @@ Jadi, `font-family` digunakan untuk menentukan jenis font yang akan digunakan un
 
 
 
----
----
+
+
 
 # BOX MODEL
 
----
+
 
 
 ## HEIGHT & WIDTH
@@ -3267,21 +3250,10 @@ button {
 
 
 
----
-
-
-
-
-
-
-
 
 
 ## Margin
 
-
-
----
 
 
 ### margin-left
@@ -3715,16 +3687,12 @@ Dengan menggunakan properti ini, kita dapat mengontrol posisi vertikal suatu ele
 
 
 
----
-
-
-
 
 
 
 ## Padding
 
---- 
+
 ### padding-left
 
 #### PENJELASAN
@@ -4148,32 +4116,37 @@ Dengan menggunakan properti ini, kita dapat mengatur seberapa besar jarak antara
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-
-
-
-
-
 ## STUDI KASUS 
 
 ### DESKRIPSI 
 
 
-
+1. **DOCTYPE HTML**: Mendefinisikan jenis dokumen HTML yang digunakan.
+2. **Elemen `<html>`**: Memulai dan mengelilingi seluruh konten halaman web.
+3. **Elemen `<head>`**: Berisi informasi tentang dokumen, seperti judul halaman dan gaya CSS internal.
+4. **Elemen `<title>`**: Menentukan judul halaman yang akan ditampilkan di bilah judul browser.
+5. **Elemen `<style>`**: Berisi aturan CSS internal untuk mengatur tampilan elemen-elemen di halaman.
+6. **Selektor `span`**: Mengatur gaya untuk teks yang terdapat di dalam elemen `<span>`.
+    - `font-size`: Menentukan ukuran font.
+    - `color`: Menentukan warna teks.
+7. **Selektor `img`**: Mengatur gaya untuk gambar.
+    - `border-radius`: Memberikan efek sudut melengkung pada gambar.
+8. **Selektor `body`**: Mengatur gaya untuk elemen body halaman.
+    - `background-color`: Menentukan warna latar belakang.
+    - `background-repeat`: Menentukan apakah gambar latar belakang diulang atau tidak (dalam kasus ini, tidak diulang).
+    - `background-position`: Menentukan posisi latar belakang (dalam kasus ini, tidak ditentukan).
+9. **Selektor `button`**: Mengatur gaya untuk tombol.
+    - `background-color`: Menentukan warna latar belakang.
+    - `color`: Menentukan warna teks tombol.
+    - `border`: Menentukan gaya garis pinggir tombol.
+    - `height` dan `width`: Menentukan tinggi dan lebar tombol.
+    - `font-weight`: Menentukan ketebalan font teks tombol.
+    - `margin-top` dan `margin-left`: Menentukan jarak antara tombol dan tepi atas dan kiri halaman.
+10. **Elemen `<body>`**: Memulai bagian tubuh dari halaman web, di mana konten aktual dari halaman ditempatkan.
+11. **Elemen `<span>`**: Digunakan untuk mengelompokkan teks dan gambar.
+12. **Elemen `<img>`**: Menampilkan gambar dengan atribut `src` yang menunjukkan lokasi gambar, serta atribut `height` dan `width` untuk menentukan ukuran gambar.
+13. **Elemen teks biasa**: Menampilkan teks statis di dalam elemen `<span>`.
+14. **Elemen `<button>`**: Membuat tombol dengan teks "klik disini".
 
 
 
@@ -4280,162 +4253,6 @@ button {
 
 
 >![Foto_hasil](Asetsss/IMG-24.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -4696,6 +4513,34 @@ Menerapkan gaya pada tautan yang telah dikunjungi oleh pengguna. Hal ini membant
 
 
 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>percobaan CSS</title>
+    
+<link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+
+
+
+    <h1>Visited Link</h1>
+    <ul>
+        <li><a  href="#">Link 1 (Unvisited)</a></li>
+        <li><a class="a" href="#">Link 2 (Visited)</a></li>
+        <li><a href="#">Link 3 (Unvisited)</a></li>
+        <li><a class="a" href="#">Link 4 (Visited)</a></li>
+    </ul>
+
+    
+   
+   
+  </body>
+    </html>
+
+
 
 
 ```
@@ -4711,6 +4556,14 @@ Menerapkan gaya pada tautan yang telah dikunjungi oleh pengguna. Hal ini membant
 
 
 
+.a {
+    color: blue;
+}
+
+/* Visited link */
+.a:visited {
+    color: red;
+}
 
 
 
@@ -4722,14 +4575,14 @@ Menerapkan gaya pada tautan yang telah dikunjungi oleh pengguna. Hal ini membant
 
 **BEFORE**
 
->![Foto_hasil](Asetsss/IMG-53.jpg)
+>![Foto_hasil](Asetsss/IMG-92.jpg)
 
 
 
 
 **AFTER** 
 
->![Foto_hasil](Asetsss/IMG-53.jpg)
+>![Foto_hasil](Asetsss/IMG-93.jpg)
 
 
 
@@ -4757,7 +4610,7 @@ pseudo-class `:visited` dalam CSS digunakan untuk memberikan gaya pada tautan ya
 
 # Transition
 
---- 
+
 ## transition
 
 ### PENJELASAN
@@ -4961,7 +4814,7 @@ Dengan `transition-delay` dalam CSS, Anda dapat menentukan waktu tunda sebelum d
 ### PENJELASAN
 
 
-`Transition-duration` dalam CSS adalah properti yang menentukan durasi waktu yang dibutuhkan untuk menyelesaikan efek transisi pada suatu elemen. Properti ini memungkinkan Anda mengontrol seberapa cepat atau lambat perubahan properti akan terjadi ketika terjadi peristiwa seperti hover atau perubahan keadaan lainnya.
+`Transition-duration` dalam CSS adalah properti yang menentukan durasi waktu yang dibutuhkan untuk menyelesaikan efek transisi pada suatu elemen. Properti ini memungkinkan Anda mengontrol seberapa cepat atau lambat perubahan properti akan terjadi ketika terjadi peristiwa seperti `hover` atau perubahan keadaan lainnya.
 
 Dalam penggunaannya, Anda dapat menentukan waktu dalam satuan detik (`s`) atau milidetik (`ms`). Sebagai contoh, `1s` berarti perubahan akan memakan waktu 1 detik, sementara `500ms` akan menghasilkan durasi 500 milidetik.
 
@@ -5260,7 +5113,7 @@ Dengan menggunakan `transition-duration`, Anda dapat mencapai efek transisi yang
 
 # Transform
 
---- 
+
 ## transform: scale
 
 ### PENJELASAN
@@ -5938,27 +5791,7 @@ Dengan menggunakan `transition-duration`, Anda dapat mencapai efek transisi yang
 ### KESIMPULAN
 
 
-`transform: matrix` memberikan tingkat kontrol yang sangat tinggi terhadap transformasi elemen dengan menyediakan matriks yang merinci seluruh transformasi dalam satu properti. Meskipun kuat, penggunaan _matrix_ bisa lebih kompleks dan biasanya lebih digunakan dalam kasus di mana kontrol presisi dan kebebasan dalam transformasi dibutuhkan. Properti ini memungkinkan desainer untuk menggabungkan transformasi secara efisien, tetapi dapat menjadi lebih sulit dibaca dan dimengerti dibandingkan dengan properti transform lainnya.
-
-
-
-
-
-
-
-
-
-
-
----
-
-
-
-
-
-
-
-
+`transform: matrix` memberikan tingkat kontrol yang sangat tinggi terhadap transformasi elemen dengan menyediakan matriks yang merinci seluruh transformasi dalam satu properti. Meskipun kuat, penggunaan `matrix` bisa lebih kompleks dan biasanya lebih digunakan dalam kasus di mana kontrol presisi dan kebebasan dalam transformasi dibutuhkan. Properti ini memungkinkan desainer untuk menggabungkan transformasi secara efisien, tetapi dapat menjadi lebih sulit dibaca dan dimengerti dibandingkan dengan properti transform lainnya.
 
 
 
@@ -5971,6 +5804,31 @@ Dengan menggunakan `transition-duration`, Anda dapat mencapai efek transisi yang
 ### DESKRIPSI 
 
 
+
+1. **DOCTYPE HTML**: Menandakan jenis dokumen HTML yang digunakan.
+2. **Elemen `<html>`**: Memulai dan mengelilingi seluruh konten halaman web.
+3. **Elemen `<head>`**: Berisi informasi tentang dokumen, seperti judul dan gaya CSS internal.
+4. **Elemen `<title>`**: Menentukan judul halaman yang akan ditampilkan di bilah judul browser.
+5. **Elemen `<style>`**: Berisi aturan CSS internal untuk mengatur tampilan elemen-elemen di halaman.
+6. **Selektor `span`**: Mengatur gaya untuk teks yang terdapat di dalam elemen `<span>`.
+    - `font-size`: Menentukan ukuran font.
+    - `color`: Menentukan warna teks.
+7. **Selektor `img`**: Mengatur gaya untuk gambar.
+    - `border-radius`: Memberikan efek sudut melengkung pada gambar.
+8. **Selektor `body`**: Mengatur gaya untuk elemen body halaman.
+    - `background-color`: Menentukan warna latar belakang.
+    - `background-repeat`: Menentukan apakah gambar latar belakang diulang atau tidak (dalam kasus ini, tidak diulang).
+    - `background-position`: Menentukan posisi latar belakang (dalam kasus ini, tidak ditentukan).
+9. **Selektor `button`**: Mengatur gaya untuk tombol.
+    - `background-color`: Menentukan warna latar belakang.
+    - `color`: Menentukan warna teks tombol.
+    - `border`: Menentukan gaya garis pinggir tombol.
+    - `height` dan `width`: Menentukan tinggi dan lebar tombol.
+    - `font-weight`: Menentukan ketebalan font teks tombol.
+    - `margin-top` dan `margin-left`: Menentukan jarak antara tombol dan tepi atas dan kiri halaman.
+10. **Pseudoselektor `button:hover`**: Mengatur gaya tambahan yang akan diterapkan pada tombol ketika mouse mengarah ke atasnya.
+
+- `background-color`: Menentukan warna latar belakang saat tombol dihover.
 
 
 ### KODE 
@@ -6093,7 +5951,7 @@ button:hover {
 
 # FLEXBOX 
 
---- 
+
 ## display flex
 
 ### PENJELASAN
@@ -6489,6 +6347,25 @@ button:hover {
 
 
 
+- **DOCTYPE HTML**: Menandakan bahwa ini adalah dokumen HTML versi terbaru.
+- **Elemen `<html>`**: Merupakan elemen utama yang mengelilingi seluruh konten halaman web.
+- **Elemen `<head>`**: Berisi informasi tentang dokumen, seperti judul dan tautan ke stylesheet.
+- **Elemen `<title>`**: Menentukan judul halaman yang akan ditampilkan di bilah judul browser.
+- **Elemen `<style>`**: Ini adalah bagian dari CSS internal yang menentukan gaya visual untuk elemen-elemen di halaman.
+- **Kelas `.main-container`**: Mendefinisikan gaya untuk kontainer utama yang mengatur tata letak dan warna latar belakangnya.
+- **Kelas `.item`**: Menentukan gaya untuk elemen-elemen dengan kelas ini, termasuk ukuran font dan jenis huruf.
+- **Kelas** `.item1`**: Mengatur gaya untuk gambar, termasuk ukuran, bentuk, dan border.
+- **Kelas `.hero-container`**: Merupakan kontainer untuk elemen-elemen di dalamnya, dengan pengaturan tata letak yang berbeda.
+- **Kelas `.item01`**: Mendefinisikan gaya untuk teks di dalam kontainer tersebut, termasuk warna dan bobot huruf.
+- **Elemen `<span>`**: Digunakan untuk mengaplikasikan gaya khusus (bold) pada sebagian teks.
+- **Kelas `.item02`**: Mengatur gaya untuk sebuah tombol, termasuk ukuran, warna, dan efek hover.
+- **Pseudoelemen `:hover`**: Mendefinisikan gaya tambahan yang akan diterapkan ketika tombol dihover.
+- **Properti `transform`**: Mengatur transformasi elemen, dalam hal ini menggunakan skala.
+- **Properti `transition`**: Menentukan bagaimana perubahan gaya harus diterapkan secara halus (dalam hal ini, durasi dan jenis animasi).
+- **Elemen `<div>`**: Digunakan untuk mengelompokkan elemen-elemen HTML ke dalam sebuah kotak.
+- **Elemen `<img>`**: Menampilkan gambar di halaman web dengan atribut `src` yang menunjukkan lokasi gambar.
+- **Elemen `<h1>`**: Merupakan judul atau teks utama halaman, dalam hal ini diberi gaya khusus menggunakan kelas `.item01`.
+- **Elemen `<button>`**: Tombol yang ketika di klik akan melakukan aksi tertentu. Dalam hal ini, diberi gaya khusus menggunakan kelas `.item02`.
 
 ### KODE
 
@@ -6665,23 +6542,6 @@ transition: all 1s ease-in-out;
 
 
 >![Foto_hasil](Asetsss/IMG-48.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -7151,6 +7011,49 @@ Dengan menggunakan `position: sticky;`, Anda dapat membuat elemen tetap berada d
 ## STUDI KASUS
 
 ### DESKRIPSI 
+
+
+
+1. Gambar (`img`):
+    
+    - Memiliki tinggi 50% dari tinggi viewport (`50vh`).
+    - Lebar 100% dari lebar kontainer.
+2. Kelas `.container`:
+    
+    - Menampilkan konten secara fleksibel dalam arah kolom (`flex-direction: column`).
+    - Memiliki margin sebesar 30 piksel.
+3. Judul (`h1`):
+    
+    - Ukuran font sebesar 40 piksel.
+4. Kelas `.p`:
+    
+    - Ukuran font paragraf sebesar 25 piksel.
+5. Kelas `.container2`:
+    
+    - Menampilkan konten secara fleksibel dalam arah baris (`flex-direction: row`).
+    - Memiliki latar belakang berwarna abu-abu (`background-color: #EEEEEE`).
+    - Tinggi elemen sebesar 90 piksel.
+    - Menyusun elemen secara merata di sepanjang sumbu utama dengan jarak yang sama di antara mereka (`justify-content: space-between`).
+    - Padding sebesar 20 piksel di sekitar konten.
+    - Menyusun elemen secara vertikal di tengah kontainer (`align-items: center`).
+6. Kelas `.h1`:
+    
+    - Berat font sebesar 500 (lebih tebal dari biasanya).
+7. Kelas `.img`:
+    
+    - Tinggi gambar sebesar 50 piksel.
+    - Lebar gambar sebesar 50 piksel.
+8. Kelas `.im`:
+    
+    - Tinggi gambar sebesar 100 piksel.
+    - Lebar gambar sebesar 100 piksel.
+9. Tombol (`button`):
+    
+    - Berada pada posisi absolut di halaman.
+    - Memiliki radius sudut sebesar 100 piksel.
+    - Tidak memiliki garis batas.
+    - Berada di atas dengan jarak 540 piksel dari bagian atas halaman dan 420 piksel dari kiri halaman.
+
 
 
 
