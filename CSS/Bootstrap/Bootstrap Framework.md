@@ -56,15 +56,15 @@ kita dapat menemukan daftar komponen lengkap dan dokumentasi resmi di situs web 
 # Contoh Penerapan Komponen Bootstrap
 ## Typography
 1. Buka situs resmi Bootstrap di [getboostrap.com](getbootstrap.com)
-	![[btc-1.png]]
+	![Foto_hasil](assets/btc-1.png)
 2. Klik "Read the docs". Maka kita akan diarahkan pada halaman web yang berisi berbagai macam Typografi (class Bootstrap).
-	![[btc-2.png]]
+	![Foto_hasil](assets/btc-2.png)
 3. Misalnya kita akan membuat sebuah teks quotes seperti di bawah ini:
-	![[btc-3.png]]
+	![Foto_hasil](assets/btc-3.png)
 4. Ketikan "Typography" di kolom search lalu enter. Maka kita akan masuk ke halaman berikut:
-	![[btc-4.png]]
+	![Foto_hasil](assets/btc-4.png)
 5. Carilah Subbab "Alignment":
-	![[btc-5.png]]
+	![Foto_hasil](assets/btc-5.png)
 6. Salinlah kode yang tertera, lalu tempelkan di tag body pada halaman html yang telah kita hubungkan dengan Bootstrap kita
 ```html
 <figure class="text-center">
@@ -77,9 +77,10 @@ Someone famous in
 </figcaption>
 </figure>
 ```
-![btc-6.png](btc-6.png)
+
+![Foto_hasil](assets/btc-6.png)
 7. Hasilnya akan terlihat seperti berikut:
-	![[btc-7.png]]
+	![Foto_hasil](assets/btc-7.png)
 8. Kita bisa mengganti kata kata nya dengan cara mengganti teks yang ada di dalam tag p dan untuk teks kecil bagian bawah kita ganti pada bagian dalam tag figcaption
 ```html
 <figure class="text-center">
@@ -95,7 +96,8 @@ Someone famous in
 </figure>
 ```
 Hasilnya adalah sebagai berikut:
-![[btc-8.png]]
+
+![Foto_hasil](assets/btc-8.png)
 *Keterangan :*
 1. ==`text-center`== pada ==`<figure>`==: Kelas ini diterapkan pada elemen ==`<figure>`== , yang mengakibatkan kontennya, termasuk elemen ==`<blockquote>`== dan ==`<figcaption>`== , akan diatur menjadi ketengah halaman maupun kontainer.
 2. blockquote pada ==`<blockquote>`== : Kelas ini memberikan gaya khusus pada elemen ==`<blockquote>`== . Elemen ini digunakan untuk merinci sebuah kutipan atau teks yang dianggap signifikan. Penggunaan kelas ini dari Bootstrap mungkin memberikan tampilan tertentu, seperti memodifikasi gaya margin atau padding, untuk memberikan estetika yang lebih baik.
@@ -106,11 +108,11 @@ Hasilnya adalah sebagai berikut:
 Untuk bagian "Dea Afrizal" adalah nama seseorang yang mengatakan quotes tersebut dan "Doroboka" adalah sumber dimana orang tersebut mengatakn kata-kata itu. Kata- kata yang dituliskan yaitu berada dalam tag ==`p`== .
 ## Navbar
 1. Bukalah Kembali [getbootstrap.com](getbootstrap.com) lalu ketik "navbar" dikolom "search" dan klik enter
-	![[btc-15.png]]
+	![Foto_hasil](assets/btc-15.png)
 2. Carilah jenis navbar yang diinginkan.
-	![[btc-16.png]]
+	![Foto_hasil](assets/btc-16.png)
 3. Jika misalnya kita telah menemukan jenis navbar yang kita inginkan, maka, salinlah kode program yang ada dibawah gambar contoh navbar tersebut
-	![[btc-17.png]]
+	![Foto_hasil](assets/btc-17.png)
 ```html
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
@@ -146,43 +148,45 @@ Untuk bagian "Dea Afrizal" adalah nama seseorang yang mengatakan quotes tersebut
 
 ```
 4. Tempelkanlah kode program yang terlah kita salin ke dalam tag body di file html kita. Jangan lupa untuk menautkan file html kita dengan bootstrap seperti pada langkah-langkah sebelumnya
-	![[btc-18.png]]
+
+	![Foto_hasil](assets/btc-18.png)
 5. Jalankanlah file html yang sudah ditempeli kode program bootstrap tadi melalui web browser. Maka lihatlah hasilnya
-	![[btc-19.png]]
+	![Foto_hasil](assets/btc-19.png)
 6. Misalnya kita ingin memberikan warna hijau pada background navbar kita. Pertama ketiklah "background" di kolom search
-	![[btc-20.png]]
+	![Foto_hasil](assets/btc-20.png)
 7. Carilah Warna yang kita inginkan. Misalnya dalam praktek ini adalah warna hijau
-	![[btc-21.png]]
-	![[btc-22.png]]
+	![Foto_hasil](assets/btc-21.png)
+	![Foto_hasil](assets/btc-22.png)
 	Terdapat banyak jenis warna dalam bootstrap.
 8. Karena kita ingin mengkostumisasi warna background kita menjadi hijau maka kita akan memakai bg-succes . ketikkan bg-succes pada class tag pembuka seperti di bawah ini
-	![[btc-23.png]]
+	![Foto_hasil](assets/btc-23.png)
 	*Keterangan*:
 	Karena kita akan memberikan warna background pada navbar maka untuk menerapkannya, langsung terapkan class tag yang membungkus semua eleme-elemen yang ada pada tag tersebut.
 9. Jika sudah maka hasilnya akan seperti ini:
-	![[btc-24.png]]
+	![Foto_hasil](assets/btc-24.png)
 10. Sekarang kita akan mengubah warna font yang ada pada navbar. Langkah pertama klik "Colors" pada bagian Utilities
-	![[btc-25.png]]
+
+	![Foto_hasil](assets/btc-25.png)
 11. Maka kita akan diarahkan pada halaman yang memuat berbagai macam warna font
-	![[btc-26.png]]
+	![Foto_hasil](assets/btc-26.png)
 12. Carilah warna font yang kita inginkan. Misalnya pada kostumisasi navbar ini. Kita akan menggunakan warna font putih
-	![[btc-27.png]]
+	![Foto_hasil](assets/btc-27.png)
 13. Karena kita ingin menggunakan warna font putih maka perintah yang digunakan adalah "text-white"
 14. Masuklah kembali ke dalam file html kita
 15. pada bagian class sebuah tag yang membungkus text yang akan kita ganti warna, ketiklah text-white . Contohny ada pada gambar berikut:
-	![[btc-28.png]]
+	![Foto_hasil](assets/btc-28.png)
 16. Hasilnya akan terlihat seperti di gambar ini:
-	![[btc-29.png]]
+	![Foto_hasil](assets/btc-29.png)
 17. Terapkanlah Text-White diseluruh class pada tag yang membungkus text-text itu seperti halnya pada text navbar tadi
-	![[btc-30.png]]
+	![Foto_hasil](assets/btc-30.png)
 18. Jika file html dijalankan, hasilnya adalah sebagai berikut
-	![[btc-31.png]]
+	![Foto_hasil](assets/btc-31.png)
 19. Sekarang kita akan mengganti text yang ada di navbar tersebut. Caranya sangat mudah, yaitu cukup kita ganti text-text tadi dengan kata kata yang kita inginkan. Misalnya adalah sebagai berikut:
-	![[btc-32.png]]
+	![Foto_hasil](assets/btc-32.png)
 20. Maka hasilnya adalah sebagai berikut:
-	![[btc-33.png]]
+	![Foto_hasil](assets/btc-33.png)
 21. Sekarang kita akan menambahkan kolom search pada navbar kita. pada bagian navbar di [getbootstrap.com](getbootstrap.com) Scroll ke bawah hingga menemukan seperti pada gambar
-	![[btc-34.png]]
+	![Foto_hasil](assets/btc-34.png)
 22. Salin kodenya lalu tempelkan di bagian bawah kode navbar kita tadi. Jadi jangan disatukan ke dalam kode navbar tadi.
 ```html
 <nav class="navbar bg-body-tertiary">
@@ -194,7 +198,9 @@ Untuk bagian "Dea Afrizal" adalah nama seseorang yang mengatakan quotes tersebut
     </div>
 </nav>
 ```
-![[btc-35.png]]
+
+
+![Foto_hasil](assets/btc-35.png)
 
 *Keterangan*:
 1. ==`navbar`== : Kelas ini menunjukkan bahwa elemen ==`<nav>`== adalah bagian dari komponen navbar. Navbar adalah bagian dari Bootstrap yang menyediakan navigasi di bagian atas halaman web. Dengan memberikan kelas navbar , kita memberitahu Bootstrap untuk menerapkan gaya dan tata letak khusus yang terkait dengan navigasi.
@@ -206,7 +212,7 @@ Untuk bagian "Dea Afrizal" adalah nama seseorang yang mengatakan quotes tersebut
 7. ==`btn`== dan ==`btn-outline-success`== : Kelas ini memberikan gaya pada elemen ==`<button>`== . Kelas btn mengindikasikan bahwa ini adalah elemen tombol Bootstrap, sedangkan btn-outline-success memberikan gaya tombol dengan warna tepi hijau ("success" dalam Bootstrap).
 8. ==`type="submit"`== pada tombol: Ini menentukan bahwa tombol tersebut bertindak sebagai tombol submit dalam formulir. Ketika ditekan, formulir akan dikirim.
 9. Maka hasilnya adalah seperti berikut:
-	![[btc-36.png]]
+	![Foto_hasil](assets/btc-36.png)
 10. Untuk membuat agar navbar tersebut terlihat menyatu, berikan background-color yang sama pada navbar diatasnya, yaitu menggunakan kode bg-succes . Letakkan di class tag yang membungkus seluruh elemen search tadi.
 	![[btc-37.png]]
 11. Maka hasil yang muncul akan seperti ini
