@@ -214,39 +214,39 @@ Untuk bagian "Dea Afrizal" adalah nama seseorang yang mengatakan quotes tersebut
 9. Maka hasilnya adalah seperti berikut:
 	![Foto_hasil](assets/btc-36.png)
 10. Untuk membuat agar navbar tersebut terlihat menyatu, berikan background-color yang sama pada navbar diatasnya, yaitu menggunakan kode bg-succes . Letakkan di class tag yang membungkus seluruh elemen search tadi.
-	![[btc-37.png]]
+	![Foto_hasil](assets/btc-37.png)
 11. Maka hasil yang muncul akan seperti ini
-	![[btc-38.png]]
+	![Foto_hasil](assets/btc-38.png)
 ## Buttons
 Pada praktek sebelumnya kita sudah mengatur navbar dan juga menambahkan kolom search. Namun ada masalah dengan tombolnya. Karena tombolnya memiliki warna yang sama dengan warna background yang digunakan yaitu hijau, Maka tombol tersebut tidak terlihat akibat warnanya menyatu. Pada bagian kali kita akan membahas cara mengatur sebuah tombol di bootstrap. Berikut caranya:
 
 1. Permasalahan tadi ialah background color tombolnya yang menyatu dengan warna backgriund navbarnya. Untuk mengatur warna tombol, pertama di situs getbootstrap.com, carilah bagian "buttons" di Components
-	![[btc-39.png]]
+	![Foto_hasil](assets/btc-39.png)
 2. Jika sudah menemukan klik bagian tersebut, maka kita akan diarahkan pada bagian buttons seperti pada gambar
-	![[btc-40.png]]
+	![Foto_hasil](assets/btc-40.png)
 3. Scroll lah ke bawah hingga menemukan bagian "Outlines Buttons"
-	![[btc-41.png]]
+	![Foto_hasil](assets/btc-41.png)
 4. Saat ini kita akan menggunakan jenis warna putih agar tidak lagi menyatu dengan warna background navabrnya. Pada outline buttons yang berwarna putih, tertulis "Light". Oleh karena itu salinlah kode program yang ada tulisan "Light".
 ```html
 <button type="button" class="btn btn-outline-light">Light</button>
 ```
 5. Blok lah terlebih dahulu kode program yang mengatur tombol pada bagian search tadi
-	![[btc-42.png]]
+	![Foto_hasil](assets/btc-42.png)
 6. Tempelkanlah kode program outline light, untuk menggantikan kode program button yang lama
-	![[btc-43.png]]
+	![Foto_hasil](assets/btc-43.png)
 7. Maka hasilnya akan bagus seperti pada gambar dibawah ini:
-	![[btc-44.png]]
+	![Foto_hasil](assets/btc-44.png)
 8. Ubahlah Text "Light" menjadi "Search"
-	![[btc-45.png]]
+	![Foto_hasil](assets/btc-45.png)
 9. Maka hasilnya akan seperti ini:
-	![[btc-46.png]]
+	![Foto_hasil](assets/btc-46.png)
 ## Cards dan Form
 Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan sebagai login page dari web kita tadi. Dalam pembuatan form login ini, kita akan menggunakan cards sebagai layout/tata letak yang akan mengatur form login tadi. Berikut langkah-langkahnya:
 
 1. Yang pertama kita tentunya harus menentukan layout cards nya terlebih dahulu. Hal ini bertujuan agar jika tata letak card sudah ada, maka kita tinggal mengatur form nya di dalam card tadi. Masuk ke situs bootstrap tadi lalu pilih cards
-	![[btc-47.png]]
+	![Foto_hasil](assets/btc-47.png)
 2. Scrol ke bawah hingga menemukan layout yang kita inginkan, misalnya seperti pada gambar:
-	![[btc-48.png]]
+	![Foto_hasil](assets/btc-48.png)
 3. Pada bagian bawah contoh, terdapat kode program. Salinlah kode program tersebut
 ```html
 <div class="card">
@@ -262,7 +262,7 @@ Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan seba
 ```
 4. Tempelkanlah kode program itu pada halaman html terkait. Tentu saja dengan bootstrap yang sudah ditautkan, baik offline, maupun online.
 5. Maka hasil awalnya adalah sebagai berikut:
-	![[btc-49.png]]
+	![Foto_hasil](assets/btc-49.png)
 6. karena jarak atas antara card dengan batas website terlalu dekat maka pada class card tambahkan mt-2 .
 ```html
 <div class="card mt-2">
@@ -277,7 +277,7 @@ Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan seba
 </div>
 ```
 7. Maka hasilnya adalah seperti ini:
-	![[btc-50.png]]
+	![Foto_hasil](assets/btc-50.png)
 8. Sekarang kita ingin membuatnya terlihat ke tengah. Maka buatlah sebuah div dengan class yaitu "container", lalu salin masuklah kode program card tadi. Dengan kata lain, bungkuslah kode program card dengan sebuah div dengan class="container".
 ```html
 <div class="container">
@@ -294,9 +294,9 @@ Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan seba
 </div>
 ```
 9. Berikut hasil dari di bungkusnya cards tadi.
-	![[btc-51.png]]
+	![Foto_hasil](assets/btc-51.png)
 10. Sekarang kita akan membuat form nya. Pertama-tama, kita perlu membuat judul form. Caranya adalah ganti tulisan "Featured" di html kita dengan kata yang kita inginkan. misalnya pada program ini kita akan mengganti tulisan menjadi "Form Login".
-	![[btc-10.png]]
+	![Foto_hasil](assets/btc-10.png)
 ```html
 <div class="container">
     <div class="card mt-2">
@@ -331,7 +331,7 @@ Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan seba
 		- Lebar ==`container-fluid`== disesuaikan dengan lebar layar pengguna, sehingga konten dapat memanfaatkan seluruh lebar tampilan tanpa batasan piksel tertentu.
 		- Digunakan ketika Anda ingin membuat tata letak yang menyesuaikan diri dengan lebar layar dan memberikan tampilan responsif.
 11. Hasilnya adalah sebagai berikut
-	![[btc-9.png]]
+	![Foto_hasil](assets/btc-9.png)
 12. Sekarang pada bagian dalam div card-body hapus semua elemen yang ada didalamnya kecuali button:
 ```html
 <div class="container">
@@ -346,9 +346,9 @@ Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan seba
 </div>
 ```
 13. Hasilnya akan seperti ini
-	![[btc-11.png]]
+	![Foto_hasil](assets/btc-11.png)
 14. Langkah selanjutnya adalah menambahkan elemen-elemen form ke dalam card-body untuk membuat formulir login. Anda dapat menggunakan elemen-elemen HTML seperti form , input , dan button untuk ini. bukalah kembali getbootstrap.com dan pilihlah form yang kita inginkan:
-	![[btc-12.png]]
+	![Foto_hasil](assets/btc-12.png)
 15. Salinlah kode program dibawah contoh forms tadi:
 ```html
 <form>
@@ -369,9 +369,9 @@ Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan seba
 </form>
 ```
 16. Tempelkanlah didalam cards-body tadi
-	![[btc-13.png]]
+	![Foto_hasil](assets/btc-13.png)
 17. Maka hasilnya adalah sepert ini:
-	![[btc-14.png]]
+	![Foto_hasil](assets/btc-14.png)
 Dengan demikian kita sudah berhasil membuat layoutcards dimana form login sebagai kontennya
 # Grid For Responsive Web/Layouting
 Bootstrap memiliki sistem tata letak yang kuat yang bernama grid. Grid berguna untuk membuat tata letak yang responsif di halaman web kita. Sistem grid Bootstrap berdasarkan konsep kolom yang dapat diatur dalam baris. Berikut adalah beberapa hal penting yang perlu kita ketahui tentang grid dan layouting di Bootstrap:
@@ -398,11 +398,11 @@ Itu adalah beberapa konsep penting dalam sistem grid Bootstrap. Dengan menggunak
 Sekarang kita akan mencoba penggunaan grid yang dengan bantuan Bootstrap. Berikut langkah-langkahnya:
 
 1. Masuklah kembali ke web getbootstrap.com.
-	![[btc-52.png]]
+	![Foto_hasil](assets/btc-52.png)
 2. carilah "Grid" di Kolom search lalu klik enter. Maka kita akan diarahkan pada halaman web yang berisi tentang grid.
-	![[btc-53.png]]
+	![Foto_hasil](assets/btc-53.png)
 3. Carilah layout atau tata letak grid yang kita inginkan. Misalnya pada praktek kali ini, kita akan menggunakan layout "Row columns".
-	![[btc-54.png]]
+	![Foto_hasil](assets/btc-54.png)
 4. Salinlah kode program yang terletak di kode bawah contohnya.
 ```html
 <div class="container text-center">
@@ -415,9 +415,9 @@ Sekarang kita akan mencoba penggunaan grid yang dengan bantuan Bootstrap. Beriku
 </div>
 ```
 5. Tempelah pada file html yang tentunya telah dihubungkan dengan tautan bootstrap, baik secara offline maupun online.
-	![[btc-55.png]]
+	![Foto_hasil](assets/btc-55.png)
 6. Maka hasilnya akan seperti berikut:
-	![[btc-56.png]]
+	![Foto_hasil](assets/btc-56.png)
 	*Keterangan:*
 	Jadi tulisan "Column" adalah isi konten yang sudah teratur dalam grid ini. kita bisa mengganti "konten" ini dengan konten yang kita inginkan
 7. Untuk mengganti kontennya hapuslah tulisan "Column" lalu gantilah dengan kontent yang kita inginkan.
@@ -456,15 +456,15 @@ Sekarang kita akan mencoba penggunaan grid yang dengan bantuan Bootstrap. Beriku
 </div>
 ```
 8. Hasil nya akan menjadi seperti berikut:
-	![[btc-57.png]]
+	![Foto_hasil](assets/btc-57.png)
 	*Keterangan:*
 	Jadi Grid tadi mengatur Row dan Column dimana terdapat 2 baris berisi 4 kolom sebagai kontennya. Kontennya tadi kita ganti dengan konten yang kita inginkan
 9. Apabila layar yang kita kecilkan, maka grid akan menyesuaikan ukurannya seperti pada gambar ini
-	![[btc-58.png]]
+	![Foto_hasil](assets/btc-58.png)
 	*Keterangan:*
 	Jadi grid ini sudah mengatur mengenai penyesuaian ukuran layar kita, sehingga, dapat menyesuaikan di segala ukuran monitor.
 10. Apabila kita melihatnya di perangkat, maka akan terlihat seperti ini:
-	![[btc-59.png]]
+	![Foto_hasil](assets/btc-59.png)
 	*Keterangan:*
 	Jadi karena grid yang disediakan oleh bootstrap telah mendukung fitur responsive, maka ketika user melihat tampilan web kita di ponsel, maka tata letak akan mengikutinya sesuai dengan ukuran ponsel, seperti yang terlihat pada gambar di atas
 ## Contoh Penggunaan `col-md`, `col-lg` dan `col-sm`
@@ -477,9 +477,9 @@ Kelas ==`col-md`== , ==`col-lg`== , dan ==`col-sm`== adalah kelas-kelas kolom da
 **Contoh**:
 Sekarang kita akan coba untuk membuat sebuah tampilan dengan menggunakan class diatas tadi. Berikut contohnya: 
 1. Bukalah kembali web getbootsrap lalu di kolom pencarian carilah "grid".
-	![[btc-60.png]]
+	![Foto_hasil](assets/btc-60.png)
 2. Cari dan copylah kembali codingan grid yang kita gunakan pada praktek sebelumnya.
-	![[btc-61.png]]
+	![Foto_hasil](assets/btc-61.png)
 ```html
 <div class="container text-center">
     <div class="row row-cols-2">
@@ -491,9 +491,11 @@ Sekarang kita akan coba untuk membuat sebuah tampilan dengan menggunakan class d
 </div>
 ```
 3. Tempelkanlah codingan tadi di visual studio kode pada file tempat kita mempraktekkan grid pada praktikum sebelumnya, agar kita bisa menggunakan satu file saja untuk praktek.
-	![[btc-62.png]]
+	![Foto_hasil](assets/btc-62.png)
 4. Maka akan terlihat seperti gambar di bawah ini:
-	![[btc-63.png]]
+
+
+![Foto_hasil](assets/btc-63.png)
 	*Keterangan*:
 	Perhatikanlah di bawah kolom JavaScript dan JQuery, terdapat tulisan column sebanyak 4 dan bersusun hal ini dikarenakan pada kodingan tadi, teks yang dipakai sebagai template di bootstrap adalah "Column", nanti pada tahap selanjutnya kita akan mengganti "Column" itu dengan text atau item yang kita inginkan.
 5. Sekarang, pada codingan yang kita ambil dari web bootstrap tadi pada bagian ==`<div class="col">`== yang pertama, tambahkanlah -md sehingga menjadi ==`<div class="col-md>"`== . Kemudian pada ==`<div class="col">`== yang kedua, tambahkanlah - lg sehingga menjadi ==`<div class="col-lg">`== , dan terakhir pada ==`<div class="col">`== yang ketiga, tambahkanlah -sm sehingga menjadi ==`<div class="col-sm">`== , sementara pada ==`<div class="col">`== yang terakhir kita biarkan saja seperti bawaan.
@@ -507,12 +509,17 @@ Sekarang kita akan coba untuk membuat sebuah tampilan dengan menggunakan class d
     </div>
 </div>
 ```
-![[btc-65.png]]
+
+
+![Foto_hasil](assets/btc-65.png)
+
+
 6. Maka hasilnya akan menjadi seperti ini:
 	**Sebelum:**
-	![[btc-66.png]]
+	![Foto_hasil](assets/btc-66.png)
 	**Sesudah:**
-	![[btc-67.png]]
+	
+	![Foto_hasil](assets/btc-67.png)
 
 *Keterangan:*
 - ==`col-md`== :Dengan menambahkan -md pada codingan tadi akan membuat kolom tersebut mengambil sebagian besar lebar tersedia (12 kolom) pada layar dengan lebar medium (768px atau lebih).
@@ -560,9 +567,12 @@ Sekarang kita akan coba untuk membuat sebuah tampilan dengan menggunakan class d
     </div>
 </div>
 ```
-![[btc-100.png]]
+
+
+![Foto_hasil](assets/btc-100.png)
+
 8. Maka hasilnya akan seperti ini:
-	![[btc-68.png]]
+	![Foto_hasil](assets/btc-68.png)
 	*Keterangan:*
 	Jadi pada praktek sebelumnya tanpa adanya tambahan pada class bootstrap tadi maka elemen akan menyesuaikan lebar pada pembungkus menjadi full, sedangkan untuk praktek yang saat ini kita tampilkan, item dan teks nya menyesuaikan ukurannya sesuai dengan tambahannnya. Untuk penjelasan ukurannya **Penjelasannya telah kami sediakan di langkah ke-6**.
 # Penggunaan Tema
@@ -579,21 +589,21 @@ Berikut adalah langkah-langkah umum untuk melakukan kostumisasi tema Bootstrap:
 Kita dapat membuat tema kostuminasi Bootstrap yang sesuai dengan kebutuhan dan gaya desain kita. Penting untuk diingat bahwa jika kita menggunakan versi Bootstrap yang lebih baru, beberapa variabel atau struktur file mungkin telah berubah.
 # Contoh Penggunaan Tema dalam Bootstrap
 1. Jadi misalnya kita ingin memberikan tema pada website yang telah kita buat sebelumnya
-	![[btc-70.png]]
+	![Foto_hasil](assets/btc-70.png)
 2. Bukalah website bootswacth.com dimana website ini menyediakan tema tema yang dapat digunakan untuk web bootstrap kia.
-	![[btc-71.png]]
+	![Foto_hasil](assets/btc-71.png)
 3. Scroll lah ke bawah hingga kita menemukan kumpulan tema tema yang telah disediakaan oleh website ini
-	![[btc-72.png]]
+	![Foto_hasil](assets/btc-72.png)
 4. Misalnya kita akan memilih tema "Darkly", oleh karena itu, klik download pada bagian bawah contoh tema tersebut.
-	![[btc-73.png]]
+	![Foto_hasil](assets/btc-73.png)
 5. Jika sudah mendownloadnya maka kita telah mendapatkan file css untuk tema tersebut
-	![[btc-74.png]]
+	![Foto_hasil](assets/btc-74.png)
 6. Pindahkanlah file css tersebut ke dalam folder yang berisi file html yang akan kita berikan tema
-	![[btc-75.png]]
+	![Foto_hasil](assets/btc-75.png)
 7. Sekarang, masuklah ke dalam file html yang akan kita berikan tema bootstrap, lalu panggillah secara eksternal file css tema tadi ke dalam file html tersebut
-	![[btc-76.png]]
+	![Foto_hasil](assets/btc-76.png)
 8. Maka hasilnya adalah sebagai berikut dengan demikian kita sudah berhasil memberikan tema gelap pada tampilan html kita menggunakan tema dark pada bootstrap
-	![[btc-77.png]]
+	![Foto_hasil](assets/btc-77.png)
 	dengan demikian kita sudah berhasil memberikan tema gelap pada tampilan html kita menggunakan tema dark pada bootstrap
 # Modifikasi Template Bootstrap 
 Kostumasisasi dalam bootstrap adalah menggunakan template bootstrap kemudian kita akan memodifikasi template tersebut sesuai dengan keinginan kita.
@@ -607,29 +617,29 @@ Template dalam Bootstrap juga mendukung konsep responsivitas, yang berarti halam
 Berikut cara mengkostumisasi template bootstrap:
 
 1. Pertama adalah kita akan membuka sebuah website yang menyediakan template bootstrap. Kali ini web akan kita gunakan adalah themewagon.com
-	![[btc-78.png]]
+	![Foto_hasil](assets/btc-78.png)
 2. Masuklah ke dalam website tersebut
-	![[btc-79.png]]
+	![Foto_hasil](assets/btc-79.png)
 3. Carilah template yang ingin kita sesuaikan dengan cara mensearch ataupun menscroll hingga menemukan tema yang sesuai
-	![[btc-80.png]]
+	![Foto_hasil](assets/btc-80.png)
 4. Jika sudah menemukan template yang kita inginkan, masuk ke template tersebut lalu klik download pada bagian kanan sebelah, contoh gambar dibawah ini.
-	![[btc-81.png]]
+	![Foto_hasil](assets/btc-81.png)
 5. Jika sudah mendownloadnya maka kita telah mendapatkan file template bootsrap kita dalam bentuk zip. File ini berisi asset gambar, style css, index tml, maupun javascript yang menyusun komponen template ini
-	![[btc-82.png]]
+	![Foto_hasil](assets/btc-82.png)
 6. Ekstraklah file tersebut hingga berbentuk seperti file biasa dengan cara klik kanan pada file zip tadi lalu pilih "Extract All".
-	![[btc-83.png]]
+	![Foto_hasil](assets/btc-83.png)
 7. Jika proses ekstrak sudah selesai maka kita tela mendapatkan folder template tersebut dalam bentuk folder biasa
-	![[btc-84.png]]
+	![Foto_hasil](assets/btc-84.png)
 8. Masuklah ke dalam folder template yang telah diekstrak tadi
-	![[btc-85.png]]
+	![Foto_hasil](assets/btc-85.png)
 9. Masuklah ke dalam folder index.html. didalam sana terdapat tampilan template kita
-	![[btc-86.png]]
+	![Foto_hasil](assets/btc-86.png)
 10. Sekarang kita akan mengkostumasisasi tampilan web template ini. Caranya adalah buka file template nya di visual studio code
-	![[btc-87.png]]
+	![Foto_hasil](assets/btc-87.png)
 11. Mulailah mengganti konten-konten seperti teks, gambarm dan lainnya seperti yang kita inginkan. Misalnya saya akan mengganti teks yang ada di gambar ini
-	![[btc-.png]]
+	![Foto_hasil](assets/btc-.png)
 12. Buka kembali visual studio dan masuk ke file index.html tersebut lalu carilah penyusun konten itu
-	![[btc-88.png]]
+	![Foto_hasil](assets/btc-88.png)
 13. Gantilah kalimat dan tujuan email dan nomor telp itu dengan yang kita inginkan
 ```html
 <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:powershop179@gmail.com">powershop179@gmail.com</a>
@@ -637,18 +647,18 @@ Berikut cara mengkostumisasi template bootstrap:
 <a class="navbar-sm-brand text-light text-decoration-none" href="tel:082133273167">082133273167</a>
 ```
 Maka hasilnya akan terlihat seperti dibawah ini:
-	![[btc-89.png]]
+	![Foto_hasil](assets/btc-89.png)
 14. Mulailah mengganti elemen-elemen lainnya sesuai keinginan kita. Misalnya kita ingin juga mengganti logo yang ada di website ini
-	![[btc-90.png]]
+	![Foto_hasil](assets/btc-90.png)
 ```html
 <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
     Powershop179
 </a>
 ```
 15. Hasil setelah diganti adalah seperti ini
-	![[btc-91.png]]
+	![Foto_hasil](assets/btc-91.png)
 16. Sekarang kita akan mengganti Nama web kita yang ada di slide carousel
-	![[btc-92.png]]
+	![Foto_hasil](assets/btc-92.png)
 ```html
 <div class="col-lg-6 mb-0 d-flex align-items-center">
     <div class="text-align-left align-self-center">
@@ -666,9 +676,9 @@ Maka hasilnya akan terlihat seperti dibawah ini:
 
 ```
 Hasilnya akan menjadi seperti ini:
-	![[btc-93.png]]
+	![Foto_hasil](assets/btc-93.png)
 17. bagaimana jika kita ingin mengganti gambar? Misalnya kita akan mengganti gambar yang ada di card ini
-	![[btc-94.png]]
+	![Foto_hasil](assets/btc-94.png)
 18. Masuklah ke visual studio code dan ke index.html tadi lalu carilah kode penyusun untuk gambar ini, kemudian gantilah di bagian src gambar yang sudah ada dengan gambar yang kita inginkan
 ```html
 <a href="shop-single.html">
@@ -676,11 +686,12 @@ Hasilnya akan menjadi seperti ini:
 </a>
 ```
 Maka haslinya akan menjadi seperti ini:
-	![[btc-95.png]]
+	![Foto_hasil](assets/btc-95.png)
 Demikianlah kostumisasi template bootstrap ini. Kesimpulanya kita dapat mengganti text, gambar, link tujuan, atau menambahkan elemen tertentu sesuai dengan kebutuhan kita. Ini tentunya sangat menghemat waktu dan tenaga, dimana kita hanya fokus pada konten yang kita sajikan dibanding harus menyusun grid, responsif, dan lainnya dari awal
 # Studi Kasus Pengaplikasian Bootstrap dalam Desain Web
 **Contoh Desain Web Yang Akan di Implementasikan**:
-![[bf-1.jpg]]
+
+![Foto_hasil](assets/bf-1.jpg)
 1. dalam desain web tersebut terdapat beberapa komponen, yaitu
    - Navbar, Hero Section, Button dll
 2. Pertama-tama kita perlu Inisialisasikan class ==`container`== agar dapat memberikan tata letak konten yang sesuai dengan desainnya.
@@ -692,9 +703,9 @@ Demikianlah kostumisasi template bootstrap ini. Kesimpulanya kita dapat menggant
 - pada ==`<div class="container">`== : Kelas ini memberikan tata letak yang terkandung pada lebar tertentu (dalam pixel) dan ditengahkan di tengah halaman atau elemen yang memuatnya. Ini membantu dalam mengatur konten agar sesuai dengan standar desain Bootstrap.
 
 3. Selanjutnya kita akan implementasikan navbarnya, bukalah kembali web getbootsrap lalu di kolom pencarian carilah "navbar".
-	   ![[bf-2.png]]
+	   ![Foto_hasil](assets/bf-2.png)
 4. Cari dan copylah codingan komponen navbar yang mungkin sesuai dengan desainnya.
-	   ![[bf-3.png]]
+	   ![Foto_hasil](assets/bf-3.png)
 ```html
 <nav class="navbar navbar-expand-lg bg-body-tertiary"> <div class="container-fluid"> <a class="navbar-brand" href="#">Navbar</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="navbarSupportedContent"> <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li> <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li> <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a> <ul class="dropdown-menu"> <li><a class="dropdown-item" href="#">Action</a></li> <li><a class="dropdown-item" href="#">Another action</a></li> <li> <hr class="dropdown-divider"> </li> <li><a class="dropdown-item" href="#">Something else here</a></li> </ul> </li> <li class="nav-item"> <a class="nav-link disabled" aria-disabled="true">Disabled</a> </li> </ul> <form class="d-flex" role="search"> <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> <button class="btn btn-outline-success" type="submit">Search</button> </form> </div> </div> </nav>
 ```
@@ -707,14 +718,14 @@ Demikianlah kostumisasi template bootstrap ini. Kesimpulanya kita dapat menggant
 
 5. Tempelkanlah kode program itu didalam class ==`container`== sebelumnya pada halaman html terkait. Tentu saja dengan bootstrap yang sudah ditautkan, baik offline, maupun online.
 6. Maka hasilnya akan seperti ini:
-	   ![[bf-4.png]]
+	   ![Foto_hasil](assets/bf-4.png)
 7. Sekarang pada bagian dalam div `navbar-collapse` hapus elemen form:
 ```html
 <form class="d-flex" role="search"> <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" /> <button class="btn btn-outline-success" type="submit">Search</button> </form>
 ```
 ![[bf-r1.png]]
 8. Hasilnya akan seperti ini:
-	   ![[bf-5.png]]
+	   ![Foto_hasil](assets/bf-5.png)
 9. Langkah Selanjutnya kita perlu mengganti list list serta nama logo pada navbarnya
 ```html
 <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <li class="nav-item"> <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a> </li> <li class="nav-item"> <a class="nav-link text-muted" href="#">Discover</a> </li> <li class="nav-item"> <a class="nav-link text-muted" href="#">Post a Job</a> </li> <li class="nav-item"> <a class="nav-link text-muted" href="#">Contact Us</a> </li> </ul>
@@ -724,7 +735,9 @@ Demikianlah kostumisasi template bootstrap ini. Kesimpulanya kita dapat menggant
 	2. ==`fw-bold`== dalam Bootstrap digunakan untuk memberikan tebal pada teks. Kelas ini merupakan bagian dari utilitas ==`font-weight`== yang disediakan oleh Bootstrap, yang memungkinkan Anda untuk dengan cepat mengubah berat font teks dengan kelas `.fw-*`. Kelas ==`fw-bold`== setara dengan berat font 700
 	3. ==`text-muted`== digunakan untuk memberi gaya pada teks dengan warna yang redup. Kelas ini merupakan bagian dari utilitas ==`text-color`== yang disediakan oleh Bootstrap, yang memungkinkan Anda untuk dengan mudah mengubah warna teks dengan kelas ==`.text-*`.== Kelas ==`text-muted`== setara dengan warna ==`$gray-600`==, yang merupakan warna abu-abu yang redup.
 
-![[bf-6.png]]
+
+![Foto_hasil](assets/bf-6.png)
+
 10. Kemudian tambah tombol `sign-up`  di sebelah kanan, sama seperti form namun kita berikan tag anchor
 ```html
 <a href="/sign-up" class="btn btn-outline-dark rounded-0 fw-bold"> Sign Up </a>
@@ -736,10 +749,11 @@ Demikianlah kostumisasi template bootstrap ini. Kesimpulanya kita dapat menggant
 	4. ==`fw-bold`==  digunakan untuk mengatur font teks dengan berat font yang tebal.
 	5.  ==`text-muted`==  digunakan untuk mengatur warna teks dengan warna yang redup.
 
-![[bf-7.png]]
+![Foto_hasil](assets/bf-7.png)
+
 11. Selanjutnya ganti background navbarnya dari `bg-body-tertiary` menjadi transparan dengan menggunakan class `bg-trasnparent`
 ![[bf-r2.png]]
-	![[bf-8.png]]
+	![Foto_hasil](assets/bf-8.png)
 12. Sekarang kita akan menengahkan list navbarnya dengan menggunakan class `m-auto`
 
 sebelum
@@ -747,7 +761,7 @@ sebelum
 sesudah
 ![[bf-10.png]]
 13. Hasilnya akan seperti ini:
-	![[bf-11.png]]
+	![Foto_hasil](assets/bf-11.png)
 14. Sekarang kita akan implementasikan komponen hero section, tuliskan kode berikut.
 ```html
 <section id="hero"></section>
@@ -765,7 +779,7 @@ sesudah
 	6. class ==`col-12`== adalah class Bootstrap yang digunakan untuk mengatur lebar konten. Class ini menambahkan stil yang memastikan konten berada pada lebar penuh dari bagian atas ke bawah.
 
 16. Hasilnya akan seperti ini:
-	![[bf-12.png]]
+	![Foto_hasil](assets/bf-12.png)
 17. Disini text nya hanya ke tengah secara horizontal, agar dapat ke tengah secara vertikal perlu kita atur tinggi pada hero sectionnya dengan external style
 ```html
 <style> #hero { height: 85vh; } </style>
@@ -775,7 +789,7 @@ sesudah
 	 ini mengatur tinggi dari elemen yang memiliki ID `hero` menjadi 85% dari tinggi viewport (viewport height).
 
 18. Hasilnya akan seperti ini:
-	![[bf-13.png]]
+	![Foto_hasil](assets/bf-13.png)
 19. Sekarang kita akan implementasikan komponen button nya, dapat kita lihat pada desainnya terdapat dua button sejajar secara horizontal, maka kita perlu memakai flexbox yang disediakan oleh bootstrap.
 ```html
 <div class="d-flex gap-4 justify-content-center align-items-center"> <a href="#" class="">Explore Remote Jobs</a> <a href="#" class="">How it works?</a> </div>
@@ -786,7 +800,8 @@ sesudah
 	3. ==`justify-content-center`== digunakan untuk mengatur posisinya konten di tengah bagian horizontal.
 	4. ==`align-items-center`== digunakan untuk mengatur posisinya konten di tengah bagian vertikal.
 
-![[bf-14.png]]
+![Foto_hasil](assets/bf-14.png)
+
 20. Selanjutnya kita perlu beri space dari setiap buttonnya, dan beri warna pada button sebelah kiri
 ```html
 <div class="d-flex gap-4 justify-content-center align-items-center"> <a href="#" class="p-2 px-3 text-decoration-none bg-primary rounded-5 text-white shadow-sm ">Explore Remote Jobs</a> <a href="#" class="p-2 px-3 text-primary rounded-5 fw-semibold">How it works?</a> </div>
@@ -802,14 +817,15 @@ sesudah
 	8. ==`fw-semibold`== digunakan untuk mengatur font teks dengan berat font yang semibold.
 	9. ==`text-primary`== digunakan untuk mengatur warna teks pada tautan. Class ini menambahkan stil yang membuat warna teks tautan berwarna hitam.
 
-![[bf-15.png]]
+![Foto_hasil](assets/bf-15.png)
+
 21. Sekarang kita akan mengganti background body nya
 ```html
 <style> body { background-color: #F6FAFF; background-image: linear-gradient(90deg, #0500FF 0%, #F8FB76 35%, #4EFF75 64%, #00FFD1 100%); background-blend-mode: overlay; } </style>
 ```
 ![[bf-r4.png]]
 22. Hasilnya akan seperti ini:
-	![[bf-16.png]]
+	![Foto_hasil](assets/bf-16.png)
 # Best Practices dan Tips
 ## Gunakan Grid Sistem:
 Manfaatkan grid sistem Bootstrap untuk mengatur tata letak (layout) situs Anda dengan baik. Gunakan kelas-kelas seperti `container`, `row`, dan `col` untuk membagi konten Anda menjadi bagian-bagian yang sesuai.
