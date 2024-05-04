@@ -233,7 +233,9 @@ INSERT INTO mobil (id_mobil,no_plat,no_mesin,warna,pemilik,peminjam,harga_rental
 
 
 
+## Referensi
 
+https://revou.co/panduan-teknis/sql-constraint
 
 
 
@@ -278,6 +280,12 @@ ALTER TABLE mobil ALTER deadline DROP DEFAULT;
 perintah SQL tersebut menghapus nilai default yang mungkin telah ditetapkan sebelumnya untuk kolom "deadline" dalam tabel "mobil". Setelah perintah ini dijalankan, kolom "deadline" tidak akan memiliki nilai default lagi.
 
 
+
+
+## Referensi 
+
+
+https://www.geeksforgeeks.org/sql-drop-constraint/
 
 
 # MENGHAPUS KOLOM
@@ -364,3 +372,6 @@ perintah SQL tersebut mengubah nama tabel "mobil" menjadi "data_mobil".
 
 
 
+## Referensi Pembahasan Alter
+
+https://www.techonthenet.com/mysql/tables/alter_table.php
