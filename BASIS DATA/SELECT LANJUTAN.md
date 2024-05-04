@@ -1493,7 +1493,7 @@ Jadi, secara keseluruhan, perintah SQL tersebut akan mengambil semua kolom dari 
 
 
 
-### ORDER BY
+### ORDER BY & LIMIT
 
 #### Mengurutkan data dari data terkecil
 
@@ -1549,8 +1549,9 @@ Jadi, secara keseluruhan, perintah SQL ini akan mengambil semua data dari tabel 
 
 
 
-#### Mengurutkan data dari data terbesar 
 
+
+#### Mengurutkan data dari data terbesar 
 
 ##### STRUKTUR 
 
@@ -1624,8 +1625,61 @@ Jadi, secara keseluruhan, perintah SQL ini akan mengambil semua data dari tabel 
 
 
 
-### DISTINCT
 
+
+
+#### LIMIT
+
+##### STRUKTUR 
+
+```MySQL
+
+
+SELECT * FROM nama_tabel WHERE nama_kolom = isi_kolom_tersebut ORDER BY nama_kolom ASC LIMIT 2;
+
+
+```
+
+
+##### CONTOH 
+
+```MySQL
+
+
+SELECT * FROM data_mobil WHERE warna = 'HITAM' ORDER BY harga_rental ASC LIMIT 2;
+
+
+
+```
+
+
+##### HASIL 
+
+>![Foto_hasil](Asetss/IMG-76.jpg)
+
+
+##### ANALISIS 
+
+1. `SELECT *`: Ini adalah pernyataan SQL yang memilih semua kolom dari tabel yang ditentukan.
+2. `FROM data_mobil`: Ini menunjukkan bahwa kita memilih data dari tabel bernama `data_mobil`.
+3. `WHERE warna = 'HITAM'`: Ini adalah klausa `WHERE` yang memfilter baris berdasarkan nilai kolom `warna`, dimana nilai `warna` harus sama dengan 'HITAM'.
+4. `ORDER BY harga_rental ASC`: Ini mengurutkan hasil berdasarkan nilai kolom `harga_rental` secara `ASC` ascending (dari yang terkecil ke yang terbesar).
+5. `LIMIT 2`: Ini membatasi jumlah baris hasil yang ditampilkan menjadi 2 baris pertama yang sesuai dengan kriteria tersebut. Jadi, hanya dua mobil dengan warna hitam yang memiliki harga rental terendah akan ditampilkan.
+
+
+
+##### KESIMPULAN
+
+
+Kode SQL tersebut akan mengambil data dari tabel `data_mobil` dimana mobil memiliki warna 'HITAM', kemudian akan diurutkan berdasarkan harga rental dari yang terendah ke tertinggi, dan yang terakhir, hanya akan menampilkan 2 mobil pertama yang memenuhi kriteria tersebut.
+
+
+
+
+
+
+
+### DISTINCT
 
 #### STRUKTUR 
 

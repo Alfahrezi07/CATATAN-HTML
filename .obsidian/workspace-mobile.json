@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BASIS DATA/ALTER.md",
+                "file": "BASIS DATA/SELECT LANJUTAN.md",
                 "mode": "source",
                 "source": false
               }
@@ -164,7 +164,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "BASIS DATA/ALTER.md",
+            "file": "BASIS DATA/SELECT LANJUTAN.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "BASIS DATA/ALTER.md",
+            "file": "BASIS DATA/SELECT LANJUTAN.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -193,7 +193,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "BASIS DATA/ALTER.md"
+            "file": "BASIS DATA/SELECT LANJUTAN.md"
           }
         }
       }
@@ -211,6 +211,9 @@
   },
   "active": "840edbb6d30b3189",
   "lastOpenFiles": [
+    "BASIS DATA/Asetss/IMG-76.jpg",
+    "BASIS DATA/CATATAN  BASIS DATA.md",
+    "BASIS DATA/ALTER.md",
     "BASIS DATA/Asetss/IMG-74.jpg",
     "BASIS DATA/Asetss/IMG-73.jpg",
     "BASIS DATA/Asetss/IMG-75.jpg",
@@ -218,19 +221,16 @@
     "BASIS DATA/Asetss/IMG-71.jpg",
     "BASIS DATA/Asetss/IMG-70.jpg",
     "BASIS DATA/SELECT LANJUTAN.md",
-    "BASIS DATA/ALTER.md",
     "BASIS DATA/Asetss/IMG-66.jpg",
     "BASIS DATA/Asetss/IMG-69.jpg",
     "BASIS DATA/Instalasi & Query Awal Database.md",
     "BASIS DATA/Asetss/IMG-67.jpg",
     "BASIS DATA/Asetss/IMG-68.jpg",
-    "BASIS DATA/CATATAN  BASIS DATA.md",
     "CSS/Css Responsive/CSS Responsive.md",
     "CSS/Bootstrap/Bootstrap Framework.md",
     "PHP/PHP.md",
     "CSS/PENGENALAN CSS.md",
     "PHP",
-    "CSS/Asetsss/IMG-92.jpg",
     "Css Responsive/CSS Responsive.md",
     "Bootstrap/Bootstrap Framework.md",
     "HTML/4) Pengenalan HTML.md",
