@@ -125,7 +125,7 @@ perintah SQL tersebut mengubah nama kolom dalam tabel "mobil" dari "batas_peminj
 
 
 
-# MENGUBAH TIPE DATA KOLOM
+#  MENGUBAH TIPE DATA KOLOM
 
 
 ## STRUKTUR 
