@@ -2,14 +2,14 @@
 
 # TABEL Employees
 
->![Foto_hasil](asetz/IMG-2.jpg)
+>![Foto_hasil](aset/IMG-2.jpg)
 
 
 
 
 # TABEL Orders
 
->![Foto_hasil](asetz/IMG-4.jpg)
+>![Foto_hasil](aset/IMG-4.jpg)
 
 
 
@@ -61,7 +61,7 @@ select * from employees where
 
 ## Hasil
 
->![Foto_hasil](asetz/IMG-10.png)
+>![Foto_hasil](aset/IMG-10.png)
 
 ## Analisis 
 
@@ -95,7 +95,7 @@ select * from employees
 
 ## Hasil
 
->![Foto_hasil](asetz/IMG-9.png)
+>![Foto_hasil](aset/IMG-9.png)
 
 ## Analisis 
 
@@ -129,7 +129,7 @@ titte = "sales Rep.");
 
 ## Hasil
 
->![Foto_hasil](asetz/IMG-8.png)
+>![Foto_hasil](aset/IMG-8.png)
 
 
 ## Analisis 
@@ -162,7 +162,7 @@ Select * from orders;
 
 ## Hasil
 
->![Foto_hasil](asetz/IMG-14.jpg)
+>![Foto_hasil](aset/IMG-14.jpg)
 
 
 ## Analisis 
@@ -192,7 +192,7 @@ IN(SELECT EmpID FROM orders GROUP BY EmpID HAVING COUNT (EmpID) = 1);
 
 ## Hasil
 
->![Foto_hasil](asetz/IMG-16.jpg)
+>![Foto_hasil](aset/IMG-16.jpg)
 
 
 ## Analisis 
@@ -229,7 +229,7 @@ Satu kali Pada tabel orders. (seperti sebeium-sebelumnya) dalam tabel orders ter
 
 ## Hasil
 
->![Foto_hasil](asetz/IMG-15.jpg)
+>![Foto_hasil](aset/IMG-15.jpg)
 
 
 ## Analisis 
@@ -263,7 +263,7 @@ SELECT * FROM employees;
 
 ## Hasil
 
->![Foto_hasil](asetz/IMG-11.jpg)
+>![Foto_hasil](aset/IMG-11.jpg)
 
 
 ## Analisis 
@@ -297,7 +297,7 @@ SELECT EmpID,Lastname,City FROM Employees;
 
 ## Hasil
 
->![Foto_hasil](asetz/IMG-13.jpg)
+>![Foto_hasil](aset/IMG-13.jpg)
 
 
 ## Analisis 
@@ -330,7 +330,7 @@ Select empID, LaseName, City From Employees WHERE City = "Seattle";
 
 ## Hasil
 
->![Foto_hasil](asetz/IMG-12.jpg)
+>![Foto_hasil](aset/IMG-12.jpg)
 
 
 ## Analisis 
@@ -367,7 +367,7 @@ INSERT INTO tabel_guru (OrderID, CustID, EmpID, OrderDate, RequiredDate, Shipped
 
 ## Hasil
 
->![Foto_hasil](asetz/IMG-5.jpg)
+>![Foto_hasil](aset/IMG-5.jpg)
 
 
 
@@ -403,7 +403,7 @@ select * from orders where empid = 1;
 
 ## Hasil
 
->![Foto_hasil](asetz/IMG-6.jpg)
+>![Foto_hasil](aset/IMG-6.jpg)
 
 
 
@@ -439,7 +439,7 @@ SELECT OrderID From orders where EmpID = 1;
 
 ## Hasil
 
->![Foto_hasil](asetz/IMG-7.jpg)
+>![Foto_hasil](aset/IMG-7.jpg)
 
 
 
@@ -470,7 +470,7 @@ SELECT MIN(EmpyID) FROM Employees WHERE City = "Seattle";
 
 ## HASIL
 
->![Foto_hasil](asetz/IMG-1.jpg)
+>![Foto_hasil](aset/IMG-1.jpg)
 
 
 ## ANALISIS
@@ -512,7 +512,7 @@ SELECT OrderID FROM Orders WHERE EmpID = (SELECT MIN(EmpyID) FROM Employees WHER
 
 ## Hasil 
 
->![Foto_hasil](asetz/IMG-3.jpg)
+>![Foto_hasil](aset/IMG-3.jpg)
 
 
 

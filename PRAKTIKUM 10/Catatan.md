@@ -48,7 +48,7 @@ select COUNT(NIP) AS jumlahpegawai
 
 ## Hasil
 
-![Praktikum](2.jpg)
+![Praktikum](Aset/2.jpg)
 
 ## Analisis 
 
@@ -74,7 +74,7 @@ SELECT Nocab, COUNT(NIP) AS Jumlah_pegawai
 
 ## Hasil
 
-![Praktikum](3.jpg)
+![Praktikum](Aset/3.jpg)
 
 ## Analisis 
 
@@ -100,7 +100,7 @@ SELECT Nocab, COUNT(NIP) AS Jumlah_pegawai
 
 ## Hasil
 
-![Praktikum](4.jpg)
+![Praktikum](Aset/4.jpg)
 
 ## Analisis 
 
@@ -126,6 +126,7 @@ Select SUM(Gaji) AS Total_Gaji
 ```
 
 ## Hasil
+
 ![](Aset/gbr1.png)
 ## Analisis
 - SELECT = Untuk memilih kolom mana saja yang dipilih untuk dijumlahkan. 
@@ -144,6 +145,7 @@ Select SUM(Gaji) AS Gaji_Manager
 ```
 
 ## Hasil
+
 ![](Aset/gbr2.png)
 ## Analisis
 - Select= untuk memiliki kolom mana saja yang dipilih untuk digunakan.
@@ -162,6 +164,7 @@ Select NoCab, SUM(Gaji) TotalGaji
   ->GROUP BY NoCab;
 ```
 ## Hasil
+
 ![](Aset/gbr3.png)
 ## Analisis
 - SELECT= untuk memilih kolom mana saja yang dipilih untuk ditampilkan atau dijumlahkan.
@@ -201,6 +204,7 @@ ___
 SELECT AVG(Gaji) AS rata_rata from pegawai;
 ```
 ## Hasil
+
 ![9.](Aset/9.jpg)
 ## Analisis
 ==Select== = untuk memilih kolom mana data Yang dipilih untuk ditampilkan.
@@ -219,6 +223,7 @@ ___
 SELECT AVG(Gaji) AS GajiRataManager FROM pegawai WHERE Jabatan = "Manager";
 ```
 ## Hasil
+
 ![10.](Aset/10.jpg)
 ## Analisis
 ==SELECT== = untuk memilih kolom mana saja yang dipilih untuk ditampilkan.
@@ -240,6 +245,7 @@ SELECT AVG(Gaji) AS GajiRataManager FROM pegawai WHERE Jabatan = "Manager";
 SELECT nocab, AVG(gaji) AS ratagaji FROM pegawai GROUP BY nocab;
 ```
 ## Hasil
+
 ![hasil](Aset/11.jpg)
 
 ## Analisis 
@@ -260,6 +266,7 @@ SELECT nocab, AVG(gaji) AS ratagaji FROM pegawai GROUP BY nocab;
 SELECT nocab, AVG(gaji) AS Ratagaji FROM pegawai GROUP BY nocab HAVING nocab = 'C101' OR nocab = 'C102';
 ```
 ## Hasil
+
 ![hasil](Aset/12.jpg)
 
 ## Analisis 
@@ -281,6 +288,7 @@ SELECT nocab, AVG(gaji) AS Ratagaji FROM pegawai GROUP BY nocab HAVING nocab = '
 SELECT MAX(gaji) AS gajiterbesar, MIN(gaji) AS gajiterkecil FROM pegawai;
 ```
 ## Hasil
+
 ![hasil](Aset/13.jpg)
 
 ## Analisis 
@@ -301,6 +309,7 @@ FROM pegawai
 WHERE Jabatan = "Manajer";
 ```
 ## Hasil
+
 ![](Aset/14.png)
 ## Analisis
 - `SELECT`= Untuk memilih kolom nama mana saja yang dipilih untuk ditampilkan l.
@@ -322,6 +331,7 @@ FROM pegawai
 GROUP BY NoCab;
 ```
 ## Hasil
+
 ![](Aset/15.png)
 ## Analisis
 - `SELECT`= Untuk memilih kolom nama mana saja yang dipilih untuk ditampilkan.
@@ -343,6 +353,7 @@ FROM pegawai
 GROUP BY NoCab HAVING COUNT(NIP) >= 3;
 ```
 ## Hasil
+
 ![](Aset/16.png)
 ## Analisis
 - `SELECT`= Untuk memilih kolom nama mana saja yang dipilih untuk ditampilkan.
@@ -382,6 +393,7 @@ Select COUNT(NIP) AS JumlahPegawai,SUM(Gaji) AS totalGaji
 - `From Pegawai`= untuk memilih tabel mana yang dipilih untuk ditampilkan pegawai adalah nama tabel yang dipilih. 
 - Hasil Dihitung berapa `NIP`, dijumlahkan semua data pada kolom `Gaji`, Dihitung Rata-Rata dari kolom `Gaji`, Ditampilkan Nilai terbesar pada kolom `Gaji`, dan nilai terkecil dalam kolom `Gaji`. 
 ### Hasil
+
 ![gambar](Aset/17.jpg)
 ## 18
 ### Program
@@ -414,4 +426,5 @@ Select COUNT(NIP) AS JumlahPegawai,SUM(Gaji) AS totalGaji
 - `(Sum(Gaji)) <= 2.600.000)`= kondisi dari `Having`, hanya data yang hasil jumlah gajinya kurang dari atau sama dengan `2600000` yang bisa tampil
 - `Hasilnya`= ada 2 barisan data yang memenuhi kondisi `<= 2600000` Adapun kondisi where yang juga dipenuhi oleh barisan data tersebut. Masing-masing namanya diubah sesuai Perintah `AS`. 
 ## Hasil 
+
 ![gambar](Aset/18.jpg)
