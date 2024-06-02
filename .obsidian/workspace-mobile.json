@@ -119,7 +119,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PRAKTIKUM!!!/PRAKTIKUM 5.md",
+                "file": "PRAKTIKUM 10/PRAKTIKUM 10.md",
                 "mode": "source",
                 "source": false
               }
@@ -200,7 +200,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "PRAKTIKUM!!!/PRAKTIKUM 5.md",
+            "file": "PRAKTIKUM 10/PRAKTIKUM 10.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -217,7 +217,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "PRAKTIKUM!!!/PRAKTIKUM 5.md",
+            "file": "PRAKTIKUM 10/PRAKTIKUM 10.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -229,7 +229,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "PRAKTIKUM!!!/PRAKTIKUM 5.md"
+            "file": "PRAKTIKUM 10/PRAKTIKUM 10.md"
           }
         }
       }
@@ -247,7 +247,10 @@
   },
   "active": "60d6e6caac10ffe3",
   "lastOpenFiles": [
+    "PRAKTIKUM!!!/PRAKTIKUM 10.md",
     "PRAKTIKUM 10/PRAKTIKUM 10.md",
+    "PRAKTIKUM!!!/asetz/IMG-17.jpg",
+    "PRAKTIKUM!!!/PRAKTIKUM 5.md",
     "PRAKTIKUM!!!/asetz/IMG-14.jpg",
     "PRAKTIKUM!!!/asetz/IMG-15.jpg",
     "PRAKTIKUM!!!/asetz/IMG-16.jpg",
@@ -257,9 +260,7 @@
     "PRAKTIKUM!!!/asetz/IMG-6.jpg",
     "PRAKTIKUM!!!/asetz/IMG-12.jpg",
     "PRAKTIKUM!!!/asetz/IMG-11.jpg",
-    "PRAKTIKUM!!!/asetz/IMG-10.png",
     "PRAKTIKUM!!!/asetz",
-    "PRAKTIKUM!!!/PRAKTIKUM 5.md",
     "PHP/PHP.md",
     "PHP_MYSQL/PHP_MYSQL.md",
     "PHPMYADMIN/PHP_MYADMIN.md",

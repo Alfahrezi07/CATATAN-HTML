@@ -26,18 +26,23 @@
 
 ```MySQL
 
-
+SELECT * FROM employees WHERE
+    -> City = (SELECT City FROM employees WHERE LastName = 'Callahan');
 
 ```
 
 
 ## Hasil
 
+>![Foto_hasil](asetz/IMG-17.jpg)
 
 
 ## Analisis 
 
-
+- `Select` : untuk memilih kolom mana saja yang inging di tampilkan.
+- `FROM employees` : merupakan nama tabel yang dipilih untuk ditampilkan.
+- `WHERE` : Kondisi yang harus dipenuhi suatu data agar dapat ditampilkan
+- `City = (SELECT City FROM employees WHERE LastName = 'Callahan');` : Merupakan kondisi yang dipilih untuk menampilkan data yang di inginkan.
 
 
 
