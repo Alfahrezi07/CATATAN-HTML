@@ -1,4 +1,4 @@
-									Rabu 10-January-2024
+														Rabu 10-January-2024
 # Pengantar_web
 **Web adalah** ==Lorem== Ipsum latihan latihan latihan latihan 
 

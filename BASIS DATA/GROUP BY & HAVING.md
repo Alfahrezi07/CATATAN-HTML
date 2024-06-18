@@ -6,7 +6,7 @@
 
 ```MySQL
 
-
+SELECT nama_kolom COUNT(nama_kolom);
 
 ```
 
@@ -20,14 +20,20 @@ SELECT jabatan, COUNT(NIP) AS JumlahPegawai FROM pegawai2 GROUP BY jabatan;
 
 ## HASIL 
 
+>![Foto_hasil](Asetss/IMG-85.jpeg)
+
 
 
 ## ANALISIS 
 
+- `SELECT jabatan, COUNT(NIP) AS JumlahPegawai` : Ini adalah pernyataan SELECT yang memilih dua kolom dari tabel `pegawai2`. Kolom pertama adalah `jabatan`, yang merupakan kolom yang akan dikelompokkan. Kolom kedua adalah `COUNT(NIP) AS JumlahPegawai`, yang menghitung jumlah baris (pegawai) dalam setiap kelompok jabatan dan memberi nama alias `JumlahPegawai` pada hasil perhitungan tersebut.
+- `FROM pegawai2` : Ini menunjukkan bahwa data diambil dari tabel `pegawai2`. Tabel ini memiliki kolom `jabatan` (untuk dikelompokkan) dan `NIP` (Nomor Induk Pegawai) yang digunakan untuk perhitungan jumlah pegawai per jabatan.
+- `GROUP BY jabatan`: Ini adalah klausa `GROUP BY` yang digunakan untuk mengelompokkan baris-baris dalam tabel berdasarkan nilai unik pada kolom `jabatan`. Dalam konteks ini, SQL akan menghitung jumlah pegawai untuk setiap nilai yang berbeda dari kolom `jabatan`.
+
 
 ## KESIMPULAN
 
-
+Kode SQL mengambil data dari tabel `pegawai2`, mengelompokkan mereka berdasarkan jabatan, dan menghitung jumlah pegawai dalam setiap kelompok jabatan tersebut. Hasilnya adalah daftar jabatan beserta jumlah pegawai yang memiliki jabatan tersebut dalam tabel `pegawai2`.
 
 
 
@@ -39,6 +45,8 @@ SELECT jabatan, COUNT(NIP) AS JumlahPegawai FROM pegawai2 GROUP BY jabatan;
 ```MySQL
 
 
+SELECT nama_kolom COUNT(nama_kolom) AS nama_ganti FROM nama_tabel GROUP BY nama_kolom HAVING COUNT(nama_kolom) kondisi;
+
 
 ```
 
@@ -47,17 +55,28 @@ SELECT jabatan, COUNT(NIP) AS JumlahPegawai FROM pegawai2 GROUP BY jabatan;
 ```MySQL
 
 
+SELECT jabatan, COUNT(NIP) AS JumlahPegawai FROM pegawai2 GROUP BY jabatan HAVING COUNT(NIP) >= 3;
+
 ```
 
 ## HASIL 
+
+>![Foto_hasil](Asetss/IMG-86.jpeg)
 
 
 
 ## ANALISIS 
 
+- `SELECT jabatan, COUNT(NIP) AS JumlahPegawai`: Ini adalah pernyataan `SELECT` yang memilih dua kolom dari tabel `pegawai2`. Kolom pertama adalah `jabatan`, yang akan dikelompokkan. Kolom kedua adalah `COUNT(NIP) AS JumlahPegawai`, yang menghitung jumlah baris (pegawai) dalam setiap kelompok jabatan dan memberi nama alias `JumlahPegawai` pada hasil perhitungan tersebut.
+- `FROM pegawai2`: Ini menunjukkan bahwa data diambil dari tabel `pegawai2`. Tabel ini memiliki kolom `jabatan` (untuk dikelompokkan) dan `NIP` (Nomor Induk Pegawai) yang digunakan untuk perhitungan jumlah pegawai per jabatan.
+- `GROUP BY jabatan`: Ini adalah klausa `GROUP BY` yang digunakan untuk mengelompokkan baris-baris dalam tabel berdasarkan nilai unik pada kolom `jabatan`. Dalam konteks ini, SQL akan menghitung jumlah pegawai untuk setiap nilai yang berbeda dari kolom `jabatan`.
+- `HAVING COUNT(NIP) >= 3`: Ini adalah klausa `HAVING` yang digunakan untuk memberikan kriteria seleksi pada hasil dari operasi `GROUP BY`. Dalam hal ini, hanya baris-baris yang memiliki nilai `COUNT(NIP)` (jumlah pegawai per jabatan) setidaknya sama dengan 3 yang akan disertakan dalam hasil akhir query.
+
+
 
 ## KESIMPULAN
 
+Kode SQL di atas mengambil data dari tabel `pegawai2`, mengelompokkannya berdasarkan jabatan, menghitung jumlah pegawai untuk setiap jabatan, dan kemudian memfilter hasilnya dengan hanya menyertakan jabatan-jabatan yang memiliki setidaknya tiga pegawai. Hasilnya adalah daftar jabatan beserta jumlah pegawai untuk jabatan-jabatan yang memenuhi kriteria tersebut.
 
 
 
@@ -81,7 +100,7 @@ SELECT jabatan, COUNT(NIP) AS JumlahPegawai FROM pegawai2 GROUP BY jabatan;
 
 ```MySQL
 
-
+SELECT nama_kolom COUNT(nama_kolom) AS nama_ganti FROM nama_tabel GROUP BY nama_kolom;
 
 ```
 
@@ -132,7 +151,7 @@ Kode SQL tersebut digunakan untuk menghitung jumlah mobil berdasarkan warna dala
 
 ```MySQL
 
-
+SELECT nama_kolom COUNT(nama_kolom) AS nama_ganti FROM nama_tabel GROUP BY nama_kolom HAVING COUNT(nama_kolom) kondisi;
 
 ```
 
@@ -185,7 +204,7 @@ Kode SQL ini membantu untuk mengidentifikasi peminjam yang telah meminjam tiga m
 
 ```MySQL
 
-
+SELECT nama_kolom, COUNT(nama_kolom) AS nama_ganti FROM nama_tabel GROUP BY nama_kolom;
 
 ```
 
@@ -237,7 +256,7 @@ Kode SQL ini membantu untuk menghitung dan menampilkan jumlah mobil yang dipinja
 
 ```MySQL
 
-
+SELECT nama_kolom SUM(nama_kolom) AS nama_ganti FROM nama_tabel GROUP BY nama_kolom;
 
 ```
 
@@ -313,7 +332,7 @@ Kedua query ini memberikan wawasan yang berbeda: yang satu dari sudut pandang pe
 
 ```MySQL
 
-
+SELECT nama_kolom SUM(nama_kolom) AS nama_ganti FROM nama_tabel GROUP BY nama_kolom HAVING SUM(nama_kolom) kondisi;
 
 ```
 
@@ -364,7 +383,7 @@ Kode SQL ini membantu untuk menghitung dan menampilkan total biaya rental yang d
 
 ```MySQL
 
-
+SELECT nama_kolom AVG(nama_kolom) AS nama_ganti FROM nama_tabel GROUP BY nama_kolom;
 
 ```
 
@@ -444,7 +463,7 @@ Kedua query ini memberikan wawasan yang berbeda: satu dari sudut pandang pemilik
 
 ```MySQL
 
-
+SELECT nama_kolom MAX(nama_kolom) AS nama_ganti, MIN(nama_kolom) AS nama_ganti  FROM nama_tabel GROUP BY nama_kolom HAVING COUNT(nama_kolom) kondisi;
 
 ```
 

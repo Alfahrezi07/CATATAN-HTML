@@ -1,4 +1,4 @@
-								Rabu 17-january-2024
+														Rabu 17-january-2024
 # Deskripsi Dalam Bentuk Rumah
 
 ![Foto_rumah](Asets/IMG-13.jpg)

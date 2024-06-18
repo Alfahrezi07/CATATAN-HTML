@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "5ab63770ad91d3a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "639205c7a2db1a96",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8018e85bdff9ab3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BASIS DATA/SELECT LANJUTAN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1c3fd8f7dc59bb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BASIS DATA/CATATAN  BASIS DATA.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7c6c82115f4fe33d",
+    "type": "split",
+    "children": [
+      {
+        "id": "4eb718ea57af53ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0bf3da129dc3dfb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6aa9811e6cd34100",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d8fd753d52a10936",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0637fd92b56d7895",
+    "type": "split",
+    "children": [
+      {
+        "id": "a313d92afae4f981",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c075e0f0cc0c5d6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "BASIS DATA/SELECT LANJUTAN.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9899d5c7fe66b751",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "BASIS DATA/SELECT LANJUTAN.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d12c8d9f327b8781",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "88626b4b0d497f4a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "BASIS DATA/SELECT LANJUTAN.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e8018e85bdff9ab3",
+  "lastOpenFiles": [
+    "BASIS DATA/SELECT LANJUTAN.pdf",
+    "BASIS DATA/Relasi Tabel.md",
+    "BASIS DATA/Relasi Tabel.pdf",
+    "BASIS DATA/GROUP BY & HAVING.md",
+    "BASIS DATA/GROUP BY & HAVING.pdf",
+    "BASIS DATA/Asetss/IMG-85.jpeg",
+    "BASIS DATA/Asetss/IMG-86.jpeg",
+    "PHP_MYSQL/PHP_MYSQL.md",
+    "BASIS DATA/SELECT LANJUTAN.md",
+    "CSS/PENGENALAN CSS.md",
+    "CSS/CSS.md",
+    "BASIS DATA/PR Tugas DATABASE.md",
+    "BASIS DATA/Pengenalan BASIS DATA.md",
+    "BASIS DATA/Pengenalan BASIS DATA.pdf",
+    "BASIS DATA/CATATAN  BASIS DATA.md",
+    "BASIS DATA/Asetss/IMG-84.png",
+    "BASIS DATA/Asetss/Cuplikan layar 2024-06-16 130342.png",
+    "Web Kelas/README.md",
+    "Web Kelas/README.pdf",
+    "BASIS DATA/ALTER.md",
+    "BASIS DATA/Asetts/IMG-9.png",
+    "BASIS DATA/Asetts/IMG-8.png",
+    "BASIS DATA/Asetts/IMG-7.png",
+    "BASIS DATA/Asetts/IMG-6.png",
+    "BASIS DATA/Asetts/IMG-5.png",
+    "BASIS DATA/Asetts/IMG-4.png",
+    "BASIS DATA/Asetts",
+    "BASIS DATA/Instalasi & Query Awal Database.md",
+    "PHPMYADMIN/PHP_MYADMIN.md",
+    "Untitled.md",
+    "PRAKTIKUM 10/PRAKTIKUM 10.md",
+    "Web Kelas/database/webkelas.sql",
+    "Web Kelas/database/webkelas (2).sql",
+    "Web Kelas/database",
+    "Web Kelas/New folder",
+    "PRAKTIKUM/PRAKTIKUM.md",
+    "PHP/PHP_MYSQL.md",
+    "PHP/PHP.md",
+    "HTML/4) Pengenalan HTML.md",
+    "HTML/HTML.md",
+    "HTML/3) Deskripsi HTML, CSS, JS.md",
+    "HTML/2) Simpulkan Video Pengantar Web.md",
+    "HTML/1) Pertemuan .md",
+    "CSS/Bootstrap/Bootstrap Framework.md"
+  ]
+}

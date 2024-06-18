@@ -39,7 +39,7 @@ Ini Sistem Informasi yang Melibatkan Data Pribadi Mahasiswa Seperti Nama, Alamat
 
 
 
----
+
 
 ---
 
@@ -107,7 +107,6 @@ Merujuk pada nilai spesifik di dalam setiap kolom. Contohnya, "Ruben Dias" adala
 
 
 
----
 
 ---
 

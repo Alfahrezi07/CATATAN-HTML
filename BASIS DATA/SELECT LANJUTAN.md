@@ -561,6 +561,77 @@ Jadi, keseluruhan kode ini akan mengembalikan informasi mengenai `pemilik` mobil
 
 
 
+
+## TANTANGAN LOGIN
+
+
+
+### STRUKTUR
+
+
+```MySQL
+
+SELECT nama_kolom1 FROM nama_tabel WHERE kondisi;
+
+```
+
+
+
+
+### CONTOH
+
+
+```MySQL
+
+SELECT nama FROM akun WHERE id=2;
+
+```
+
+### HASIL
+
+
+>![Foto_hasil](Asetss/IMG-84.png)
+
+
+
+
+
+### ANALISIS
+
+
+
+`SELECT nama` : Menunjukkan bahwa hanya kolom "nama" dari tabel "akun" yang akan diambil.
+    
+`FROM akun` : Menunjukkan bahwa data diambil dari tabel bernama "akun".
+    
+`WHERE id=2` : Menyatakan kondisi yang harus dipenuhi oleh data yang diambil. Kondisi ini menyaring data hanya untuk akun yang memiliki nilai "`id`" sama dengan `2`.
+
+
+1. **Perintah `SELECT`**:
+    
+    - Perintah **`SELECT`** digunakan untuk mengambil atau menampilkan data dari database. Dalam konteks ini, kita ingin mengambil data kolom **nama** dari tabel **akun**.
+2. **`FROM`**:
+    
+    - **`FROM`** digunakan untuk menentukan tabel mana yang akan digunakan untuk mengambil data. Di sini, tabel yang digunakan adalah **akun**.
+3. **Kondisi `WHERE`**:
+    
+    - Kondisi **`WHERE`** digunakan untuk memfilter baris-baris tertentu yang sesuai dengan kriteria yang ditentukan. Dalam kode ini, kondisinya adalah **id=2**, yang artinya kita hanya akan mengambil baris yang memiliki nilai **id** sama dengan 2.
+
+
+
+### KESIMPULAN
+
+
+
+Jadi, keseluruhan kode ini akan mengembalikan informasi mengenai `nama` akun dengan `id=2` dari tabel "akun".
+
+
+Jadi, secara keseluruhan, kode SQL **`SELECT` nama `FROM` akun `WHERE` id=2;** akan mengambil nilai dari kolom **nama** dari tabel **akun** di mana nilai **id** adalah 2. Misalnya, jika ada baris di dalam tabel **akun** yang memiliki **id** = 2, perintah ini akan mengembalikan nilai dari kolom **nama** untuk baris tersebut.
+
+
+
+
+
 ## IN 
 
 
