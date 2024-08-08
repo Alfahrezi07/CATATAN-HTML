@@ -119,14 +119,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BASIS DATA/CATATAN  BASIS DATA.md",
+                "file": "BASIS DATA/SELECT LANJUTAN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5b3f9a38349b9d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project_Dart.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -200,7 +212,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "BASIS DATA/CATATAN  BASIS DATA.md",
+            "file": "Project_Dart.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -217,7 +229,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "BASIS DATA/CATATAN  BASIS DATA.md",
+            "file": "Project_Dart.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -229,7 +241,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "BASIS DATA/CATATAN  BASIS DATA.md"
+            "file": "Project_Dart.md"
           }
         }
       }
@@ -245,17 +257,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "60d6e6caac10ffe3",
+  "active": "f5b3f9a38349b9d2",
   "lastOpenFiles": [
+    "BASIS DATA/SELECT LANJUTAN.md",
+    "Project_Dart.md",
+    "BASIS DATA/Instalasi & Query Awal Database.md",
+    "BASIS DATA/Pengenalan BASIS DATA.md",
+    "PRAKTIKUM!!!/PRAKTIKUM 5.md",
+    "PHP/PHP.md",
+    "PHPMYADMIN/PHP_MYADMIN.md",
+    "BASIS DATA/CATATAN  BASIS DATA.md",
     "BASIS DATA/GROUP BY & HAVING.md",
     "BASIS DATA/ALTER.md",
     "CSS/PENGENALAN CSS.md",
     "PHP/PHP_MYSQL.md",
-    "PHP/PHP.md",
     "PRAKTIKUM 10/PRAKTIKUM 10.md",
     "PRAKTIKUM!!!/PRAKTIKUM 10.md",
     "PRAKTIKUM!!!/asetz/IMG-17.jpg",
-    "PRAKTIKUM!!!/PRAKTIKUM 5.md",
     "PRAKTIKUM!!!/asetz/IMG-14.jpg",
     "PRAKTIKUM!!!/asetz/IMG-15.jpg",
     "PRAKTIKUM!!!/asetz/IMG-16.jpg",
@@ -267,17 +285,13 @@
     "PRAKTIKUM!!!/asetz/IMG-11.jpg",
     "PRAKTIKUM!!!/asetz",
     "PHP_MYSQL/PHP_MYSQL.md",
-    "PHPMYADMIN/PHP_MYADMIN.md",
     "Pratikum/Pratikum Basia Data.md",
-    "BASIS DATA/Instalasi & Query Awal Database.md",
     "PHP_MYSQL/Assetts",
     "PHP_MYSQL",
     "PHPMYADMIN/Asetts",
     "PHPMYADMIN",
     "PRAKTIKUM 10/asetz",
     "PRAKTIKUM 10",
-    "BASIS DATA/SELECT LANJUTAN.md",
-    "BASIS DATA/CATATAN  BASIS DATA.md",
     "BASIS DATA/PR Tugas DATABASE.md",
     "Untitled",
     "Pelajaran BASIS DATA.md",
@@ -288,11 +302,9 @@
     "Vault.md",
     "Pasted image 20240129132103.png.md",
     "CSS/CSS.md",
-    "BASIS DATA/Pengenalan BASIS DATA.md",
     "CSS/Css Responsive/CSS Responsive.md",
     "CSS/Bootstrap/Bootstrap Framework.md",
     "Css Responsive/CSS Responsive.md",
-    "Bootstrap/Bootstrap Framework.md",
     "HTML/Pertemuan 1/Untitled.canvas",
     "Untitled.canvas"
   ]

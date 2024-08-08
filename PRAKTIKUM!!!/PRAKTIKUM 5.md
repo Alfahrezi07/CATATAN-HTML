@@ -370,15 +370,17 @@ GROUP BY NoCab HAVING COUNT(NIP) >= 3;
 - **Hasilnya** = Seperti no.4, yang mempunyai hasil hitung lebih dari atau sama dengan 3 adalah `NoCab C102`. Jadi hanya itu yang dicari nilai maksimum dan minimumnya pada kolom `Gaji`.
 --- 
 
-# PRAKTIKUM 5
-## 17
-### Program
+
+# 17
+## Program
 ```MySql
 Select COUNT(NIP) AS JumlahPegawai,SUM(Gaji) AS totalGaji
 -> AVG (Gaji) AS RataGaji, Max(Gaji), AS GajiMaks, MIN(Gaji), AS GajiMin 
 -> From Pegawai 
 ``` 
-### Penjelasan
+
+
+## Penjelasan
 - `Select`= untuk memilih kolom mana saja yang dipilih untuk di tampilkan. 
 - `COUNT(NIP)` = untuk menghitung jumlah barisan data yang ada pada kolom yang dipilih. 
 - `AS JumlahPegawai`= untuk mengganti nama kolom hasil `COUNT(NIP)` menjadi Jumlah `Pegawai`. 
@@ -392,11 +394,21 @@ Select COUNT(NIP) AS JumlahPegawai,SUM(Gaji) AS totalGaji
 - `AS Gaji min`= untuk mengganti nama dari kolom hasil `min(gaji)` menjadi Gajimin untuk sementara. 
 - `From Pegawai`= untuk memilih tabel mana yang dipilih untuk ditampilkan pegawai adalah nama tabel yang dipilih. 
 - Hasil Dihitung berapa `NIP`, dijumlahkan semua data pada kolom `Gaji`, Dihitung Rata-Rata dari kolom `Gaji`, Ditampilkan Nilai terbesar pada kolom `Gaji`, dan nilai terkecil dalam kolom `Gaji`. 
-### Hasil
+
+
+## Hasil
 
 ![gambar](Aset/17.jpg)
-## 18
-### Program
+
+
+
+---
+
+
+# 18
+
+## Program
+
 ```Mysql
 Select COUNT(NIP) AS JumlahPegawai,SUM(Gaji) AS totalGaji
     -> ,AVG (Gaji) AS RataGaji, Max(Gaji) AS GajiMaks, MIN(Gaji) AS GajiMin
@@ -404,7 +416,12 @@ Select COUNT(NIP) AS JumlahPegawai,SUM(Gaji) AS totalGaji
     -> WHERE Jabatan = 'Staf' OR Jabatan = 'Sales'
     -> GROUP BY NoCab HAVING SUM(Gaji) <= 2600000;
 ```
+
+
+
+
 ## Penjelasan
+
 - `Select`= untuk memilih kolom mana saja yang ingin digunakan. 
 - `COUNT(NIP)`= untuk menghitung barisan data yang ada pada kolom yang dipilih. 
 - `AS JumlahPegawai`= untuk mengganti nama dari kolom hasil `COUNT(NIP)` menjadi jumlah pegawai untuk sementara
@@ -425,6 +442,10 @@ Select COUNT(NIP) AS JumlahPegawai,SUM(Gaji) AS totalGaji
 - `HAVING`= kondisi yang harus dipenuhi oleh suatu kelompok data agar bisa di tampilkan
 - `(Sum(Gaji)) <= 2.600.000)`= kondisi dari `Having`, hanya data yang hasil jumlah gajinya kurang dari atau sama dengan `2600000` yang bisa tampil
 - `Hasilnya`= ada 2 barisan data yang memenuhi kondisi `<= 2600000` Adapun kondisi where yang juga dipenuhi oleh barisan data tersebut. Masing-masing namanya diubah sesuai Perintah `AS`. 
+
+
+
+
 ## Hasil 
 
 ![gambar](Aset/18.jpg)
